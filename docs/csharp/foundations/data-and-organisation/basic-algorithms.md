@@ -191,3 +191,10 @@ Always measure: readability first, micro-optimizations after evidence from profi
 - with
 - without
 - you
+
+## References
+- [LINQ (Language Integrated Query)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/) — core query operators for searching and transforming collections.
+- [List<T>.Find and FindAll](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.find) — API reference for search helpers.
+- [Array.Sort](https://learn.microsoft.com/en-us/dotnet/api/system.array.sort) — sorting overloads and comparer usage.
+- [Aggregate operator](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.aggregate) — documentation on folding sequences.
+- [IAmTimCorey: LINQ Crash Course](https://www.youtube.com/watch?v=8pTEmbeENF4) — video overview of practical LINQ patterns.

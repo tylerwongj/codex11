@@ -251,3 +251,10 @@ return state switch
 - x
 - y
 - z
+
+## References
+- [Pattern matching overview](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching) — motivation and supported pattern forms.
+- [Pattern matching reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns) — exhaustive list of patterns and syntax.
+- [switch expressions](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/switch-expression) — modern alternative to traditional switch statements.
+- [Microsoft Learn: Apply pattern matching in C#](https://learn.microsoft.com/en-us/training/modules/csharp-pattern-matching/) — interactive exercises exploring new patterns.
+- [Dustin Campbell: Pattern Matching in C#](https://www.youtube.com/watch?v=J0z6s4r2VoY) — conference talk on practical use cases.

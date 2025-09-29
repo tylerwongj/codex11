@@ -310,3 +310,4 @@ readonly struct Temperature
 - [Records and type choices](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/records) — how records compare to classes and structs.
 - [Microsoft Learn: Explore classes, structs, and records](https://learn.microsoft.com/en-us/training/modules/csharp-explore-classes-structs-records/) — practice exercises comparing type options.
 - [freeCodeCamp: Object-Oriented Programming in C#](https://www.youtube.com/watch?v=GhQdlIFylQ8) — long-form course covering class design and struct usage.
+

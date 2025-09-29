@@ -285,3 +285,4 @@ foreach (var amount in new[] { 25m, 60m })
 - [switch expression guidance](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/switch-expression) — modern pattern-based branching.
 - [Microsoft Learn: Create branching and looping structures](https://learn.microsoft.com/en-us/training/modules/csharp-create-branching-loops/) — hands-on practice with control flow.
 - [Programming with Mosh: C# Control Flow](https://www.youtube.com/watch?v=5i0rCsWfO1Y) — video introduction to branching and loops.
+

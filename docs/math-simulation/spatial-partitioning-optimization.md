@@ -86,3 +86,11 @@
 - volume
 - vs
 - wicked
+
+## References
+- [Red Blob Games: Spatial hashing](https://www.redblobgames.com/articles/spatial-hash/) — visual explanation of spatial hashing for fast lookups.
+- [GameDev.net: Spatial Partitioning](https://www.gamedeveloper.com/programming/spatial-partitioning---a-simple-solution) — article covering grids, quadtrees, and BVHs.
+- [GPU Gems: Uniform Grid Techniques](https://developer.nvidia.com/gpugems/gpugems/part-iv-image-oriented-computing/chapter-32-using-uniform-grid-spatial-partitioning-accelerate-ray-tracing) — advanced look at uniform grids for acceleration.
+- [Unity Learn: Optimizing physics performance](https://learn.unity.com/tutorial/optimizing-physics-performance) — practical guidance on colliders and partitioning.
+- [Sebastian Lague: Coding Adventure - Quadtrees](https://www.youtube.com/watch?v=OJ4a0D27c0g) — visual explanation of quadtree partitioning.
+

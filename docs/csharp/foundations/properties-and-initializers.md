@@ -283,3 +283,4 @@ var lookup = new Dictionary<string, int>
 - [Object and collection initializers](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers) — concise initialization syntax.
 - [init accessors](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init) — C# 9 immutable property initialization.
 - [IAmTimCorey: Auto-Implemented Properties](https://www.youtube.com/watch?v=P4v1RByyKaA) — video explaining property patterns and tips.
+

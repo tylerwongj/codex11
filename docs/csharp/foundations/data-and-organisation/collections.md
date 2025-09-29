@@ -218,3 +218,10 @@ var activeIds = players
 - workflow
 - writeline
 - you
+
+## References
+- [Collections in .NET](https://learn.microsoft.com/en-us/dotnet/standard/collections/) — guide to the collection namespaces.
+- [Choosing a collection](https://learn.microsoft.com/en-us/dotnet/standard/collections/when-to-use-generic-collections) — decision matrix for generic types.
+- [System.Collections.Generic overview](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic) — reference for primary collection types.
+- [Immutable collections](https://learn.microsoft.com/en-us/dotnet/api/system.collections.immutable) — when to reach for persistent collection types.
+- [IAmTimCorey: C# Collection Types](https://www.youtube.com/watch?v=MKCrYYU0vxY) — video comparing lists, dictionaries, queues, and stacks.

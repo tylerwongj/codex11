@@ -183,3 +183,10 @@ public class WeaponConfig : ScriptableObject
 - writeindented
 - writes
 - your
+
+## References
+- [Serialization in .NET](https://learn.microsoft.com/en-us/dotnet/standard/serialization/) — overview of available serializers.
+- [System.Text.Json overview](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/overview) — modern JSON APIs with examples.
+- [JSON serialization scenarios](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/common-uses) — recipes for common serialization tasks.
+- [Microsoft Learn: Serialize and deserialize JSON in .NET](https://learn.microsoft.com/en-us/training/modules/serialize-deserialize-json-dotnet/) — interactive lab covering System.Text.Json.
+- [On .NET Live: Working with JSON in .NET](https://www.youtube.com/watch?v=qlPxmmbgpqQ) — video discussion on serialization strategies.

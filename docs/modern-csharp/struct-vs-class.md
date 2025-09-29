@@ -269,3 +269,10 @@ public record class Customer(string Id, string Name)
 - with
 - x
 - y
+
+## References
+- [Choosing between class and struct](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/choosing-between-class-and-struct) — design guidelines for selecting a type.
+- [Design guidelines for structs](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/struct) — framework design rules.
+- [Value types vs reference types](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/) — comparison of semantics and storage.
+- [Write safe and efficient C# code](https://learn.microsoft.com/en-us/dotnet/csharp/write-safe-efficient-code) — performance considerations for structs.
+- [Tim Corey: Struct vs Class](https://www.youtube.com/watch?v=WVobZ4D9F94) — video guide on when to favor structs.

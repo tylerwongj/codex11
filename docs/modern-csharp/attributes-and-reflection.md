@@ -262,3 +262,10 @@ foreach (var type in resourceTypes)
 - where
 - with
 - writeline
+
+## References
+- [Attributes in C#](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/) — introduction to built-in and custom attributes.
+- [Creating custom attributes](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/creating-custom-attributes) — how to author and apply metadata.
+- [Reflection overview](https://learn.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/reflection) — runtime type inspection fundamentals.
+- [System.Reflection namespace](https://learn.microsoft.com/en-us/dotnet/api/system.reflection) — API reference for reflective operations.
+- [C# Advanced: Attributes and Reflection](https://learn.microsoft.com/en-us/shows/csharp-advanced/attributes-and-reflection/) — video episode demonstrating practical usage.

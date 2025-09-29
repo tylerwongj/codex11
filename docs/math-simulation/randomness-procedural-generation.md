@@ -73,3 +73,11 @@
 - variants
 - visual
 - white
+
+## References
+- [Unity Manual: Random class](https://docs.unity3d.com/ScriptReference/Random.html) — reference for Unity's random number utilities.
+- [Unity Learn: Procedural Generation](https://learn.unity.com/tutorial/procedural-generation) — guided tutorials covering noise and content synthesis.
+- [Red Blob Games: Noise-based terrain](https://www.redblobgames.com/maps/terrain-from-noise/) — interactive article on using noise for terrain.
+- [The Book of Shaders: Noise](https://thebookofshaders.com/11/) — deep dive into noise functions and randomness.
+- [GDC: 30 Years of Procedural Generation](https://www.youtube.com/watch?v=U1kS8z2ABro) — talk on practical techniques and pitfalls.
+

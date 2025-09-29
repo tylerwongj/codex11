@@ -82,3 +82,10 @@
 - visualizers
 - with
 - yet
+
+## References
+- [Unity Manual: Interpolation](https://docs.unity3d.com/Manual/Interpolation.html) — official guidance on smoothing motion between frames.
+- [Gaffer on Games: Fix Your Timestep](https://gafferongames.com/post/fix_your_timestep/) — classic article on stable integration and interpolation.
+- [Game Math: Interpolation](https://gamemath.com/book/interpolation.html) — mathematical background for lerp, slerp, and easing.
+- [Catlike Coding: Movement](https://catlikecoding.com/unity/tutorials/basics/movement/) — practical interpolation patterns in Unity.
+- [Sebastian Lague: Smooth Movement](https://www.youtube.com/watch?v=_1nzEFMjkI4) — video demo of lerp-based smoothing in Unity.

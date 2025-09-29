@@ -245,3 +245,10 @@ public class Segment
 - without
 - x
 - y
+
+## References
+- [Extension methods](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods) — syntax, discovery, and best practices.
+- [Partial classes and methods](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods) — splitting definitions across files.
+- [Expression-bodied members](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members) — concise member definitions.
+- [Pattern-based extensions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching) — combining extension members with pattern matching.
+- [IAmTimCorey: Extension Methods in C#](https://www.youtube.com/watch?v=PQmqHo7T0n8) — video walkthrough of extension method scenarios.

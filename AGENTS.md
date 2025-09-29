@@ -1,19 +1,19 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-Source modules live under `src/`, mirrored by unit tests in `tests/<module>/`. Learning materials and reference notes stay in `docs/`, while reusable tooling belongs in `scripts/`. Use `config/` for shared YAML/TOML settings, `assets/` for large fixtures (track >10 MB files with Git LFS and note the source), and `experiments/<topic>/` for spikes that should not ship. Keep the workspace tidy by archiving deprecated artifacts rather than deleting history.
+All learning material lives in `docs/`, organized by topic (e.g., `csharp/`, `unity-core/`, `game-programming-patterns/`). Each folder holds focused Markdown files plus a local `README.md` that orients new readers. Roadmaps sit under `docs/unity-roadmaps/` and meta guidance under `docs/meta/`. When adding a new subject, mirror this pattern: a directory named after the topic in kebab-case with overview and deep-dive notes. Place large reference media in `assets/` and cite sources inside an `assets/README.md` entry.
 
 ## Build, Test, and Development Commands
-Run `make install` to bootstrap the `.venv` and install dependencies from `requirements.txt`. `make lint` executes `ruff check src tests` followed by `ruff format --check`. `make test` wraps `pytest --maxfail=1 --ff` for fast feedback, while `make test-all` is reserved for slow or marked suites. Use `make dev` to launch the primary entry point or watcher-based workflow for the active module.
+This repo is documentation-only, so there is no build pipeline yet. Before opening a pull request, run a Markdown style pass such as `npx markdownlint-cli "docs/**/*.md"` (or your preferred formatter) to catch heading and spacing issues. If you introduce scripts or samples later, document the exact command in the relevant folder’s README.
 
-## Coding Style & Naming Conventions
-Target Python 3.11 with 4-space indentation and `snake_case` for functions, modules, and files. Classes follow `PascalCase`; constants use `SCREAMING_SNAKE_CASE`. Annotate public interfaces with type hints and keep `mypy src` clean. Format code with `ruff format` and favor concise, purposeful comments.
+## Writing Style & Naming Conventions
+Use Markdown headings sequentially (`#`, `##`, `###`) and wrap prose near 100 characters. Favor concise, instructional language; lead with definitions or checklists, then add curated resources. Files should be lowercase kebab-case (e.g., `vector-math-fundamentals.md`). Keep examples in fenced code blocks with language hints, and prefer ASCII unless quoting APIs that require symbols. When documenting workflows, include explicit command snippets and paths.
 
-## Testing Guidelines
-Place tests in `tests/<module_name>/test_<subject>.py`, mirroring the runtime package path. Maintain ≥85% statement coverage; add regression tests alongside fixes and reference ticket IDs in docstrings. Mark slow or integration tests with `@pytest.mark.slow` so they are excluded from `make test` but included in `make test-all` before merging.
+## Content Review & Quality Checks
+Cross-link related articles so readers can navigate between topics. For new sections, include a short synopsis, learning outcomes, and at least one actionable exercise or reference. Peer reviewers should verify technical accuracy, spelling, and link health. Record follow-up ideas in the associated directory’s README so they are easy to triage later.
 
 ## Commit & Pull Request Guidelines
-Follow `type(scope): imperative summary` commit titles (e.g., `feat(orchestrator): add agent heartbeat watchdog`). Rebase before pushing, link PRs to their issues, and attach sanitized output from `make lint` and `make test`. Include screenshots or logs for behavior changes and document configuration updates under `docs/`. Request at least one review and summarize risk, mitigation, and rollout checks in the PR description.
+Craft commits using `type(scope): summary` (e.g., `docs(unity-gameplay): expand physics notes`). Each pull request should explain the motivation, list major sections touched, and attach previews or screenshots when formatting changes are involved. Reference supporting resources or issue IDs, note any outstanding TODOs, and request at least one review before merging.
 
-## Security & Configuration Tips
-Store secrets outside the repo; load them via environment overrides that reference templates in `config/`. Review dependency updates during `make install`, pin critical packages, and scan for exposed credentials before publishing branches.
+## Research & Attribution
+Quote external sources sparingly and attribute them inline with links. If you copy significant excerpts or diagrams, confirm the license permits reuse, store originals in `assets/`, and include credit details. Add a short rationale for recommended resources so future readers know why they matter.

@@ -154,3 +154,10 @@ state &= ~StatusEffects.Poisoned; // remove poison
 - when
 - with
 - without
+
+## References
+- [Enumeration types](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/enumeration-types) — defining enums and iterating over members.
+- [enum (C# Reference)](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum) — language rules for underlying types and initialization.
+- [System.FlagsAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.flagsattribute) — using bit flags for combinable options.
+- [Flags enums guidance](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/enum#flags-enums) — official guidance and examples for flags.
+- [C# 101 show](https://learn.microsoft.com/en-us/shows/dotnet/csharp-101/) — episode coverage on enums and pattern matching.

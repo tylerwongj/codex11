@@ -80,3 +80,10 @@
 - visualize
 - vs
 - world
+
+## References
+- [Unity Manual: Transforms](https://docs.unity3d.com/Manual/class-Transform.html) — official overview of position, rotation, and scale.
+- [LearnOpenGL: Coordinate Systems](https://learnopengl.com/Getting-started/Coordinate-Systems) — step-by-step explanation of model, view, and projection spaces.
+- [Catlike Coding: Transforms](https://catlikecoding.com/unity/tutorials/basics/transforms/) — visual walkthrough of local vs global transforms.
+- [Game Math: Matrix Transform](https://gamemath.com/book/matrix_transform.html) — derivation of transform matrices for game development.
+- [3Blue1Brown: Linear transformations](https://www.youtube.com/watch?v=kYB8IZa5AuE) — intuitive video on matrices as geometric transformations.

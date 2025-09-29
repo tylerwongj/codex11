@@ -291,3 +291,10 @@ public async Task<IReadOnlyList<UserDto>> LoadUsersAsync(IEnumerable<int> ids, I
 - workflows
 - wrap
 - yields
+
+## References
+- [Asynchronous programming with async and await](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-and-await) — official guide to the async/await model.
+- [Task-based asynchronous pattern](https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/task-based-asynchronous-programming) — conceptual overview of TAP.
+- [Best practices for async code](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-best-practices) — guidance on configuring awaits and avoiding deadlocks.
+- [Microsoft Learn: Explore asynchronous programming in C#](https://learn.microsoft.com/en-us/training/modules/csharp-asynchronous/) — hands-on module for async workflows.
+- [Stephen Cleary: Async/Await Best Practices](https://www.youtube.com/watch?v=fK3utKgm2gk) — conference talk diving into advanced scenarios.

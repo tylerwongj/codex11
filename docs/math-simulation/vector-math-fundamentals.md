@@ -79,3 +79,10 @@
 - video
 - view
 - with
+
+## References
+- [Unity Manual: Vector math](https://docs.unity3d.com/Manual/UnderstandingVectorArithmetic.html) — component-wise operations, magnitude, and normalization.
+- [Game Math: Vector math](https://gamemath.com/book/vector_math.html) — comprehensive review of vectors for games.
+- [Catlike Coding: Vectors](https://catlikecoding.com/unity/tutorials/basics/vector-fields/) — visualization-heavy tutorial on vectors.
+- [Khan Academy: Vectors and spaces](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces) — structured lessons on vector concepts.
+- [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs) — highly visual introduction to vectors and linear combinations.
