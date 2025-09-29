@@ -1,0 +1,117 @@
+# Tooling & Workflow Learning Guide
+
+Apply these modules to streamline your Unity production workflow and keep teams aligned.
+
+- [IDE: Visual Studio / Rider Setup, Code Analysis, Unity Integration](ide-setup-code-analysis.md)
+- [Package Manager Usage, Managing Dependencies, Custom Packages](package-manager-dependencies.md)
+- [Continuous Integration, Automated Builds, Crash/Analytics Instrumentation](continuous-integration-automated-builds.md)
+- [Asset Pipeline Basics (Import Settings, Compression, Platform Overrides)](asset-pipeline-basics.md)
+
+Build small automation experiments alongside each topic, then revisit the next steps checklist below to plan ongoing improvements.
+
+## Next Steps
+- Rotate through weekly "tooling mastery" sessions where team members demo new IDE features or package workflows.
+- Instrument CI dashboards with trends for build duration, crash-free sessions, and asset bundle size to catch regressions early.
+- Shadow an artist or technical designer to spot workflow friction and feed those insights into automation or tooling improvements.
+
+## Word List
+- aligned
+- alongside
+- an
+- analysis
+- analytics
+- and
+- apply
+- artist
+- asset
+- automated
+- automation
+- basics
+- below
+- build
+- builds
+- bundle
+- catch
+- checklist
+- ci
+- code
+- compression
+- continuous
+- crash
+- custom
+- dashboards
+- demo
+- dependencies
+- designer
+- duration
+- each
+- early
+- experiments
+- features
+- feed
+- for
+- free
+- friction
+- guide
+- ide
+- import
+- improvements
+- insights
+- instrument
+- instrumentation
+- integration
+- into
+- keep
+- learning
+- manager
+- managing
+- mastery
+- md
+- members
+- modules
+- new
+- next
+- ongoing
+- or
+- overrides
+- package
+- packages
+- pipeline
+- plan
+- platform
+- production
+- regressions
+- revisit
+- rider
+- rotate
+- sessions
+- settings
+- setup
+- shadow
+- size
+- small
+- spot
+- steps
+- streamline
+- studio
+- team
+- teams
+- technical
+- the
+- then
+- these
+- those
+- through
+- to
+- tooling
+- topic
+- trends
+- unity
+- usage
+- visual
+- weekly
+- where
+- with
+- workflow
+- workflows
+- your

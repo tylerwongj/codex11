@@ -1,0 +1,84 @@
+# Kinematics & Interpolation
+- Cover linear and angular kinematics: position, velocity, acceleration, and jerk.
+- Implement numerical integration schemes (Euler, semi-implicit, Runge-Kutta) and compare error characteristics.
+- Learn interpolation techniques: lerp, slerp, smoothstep, smooth damp, and critically damped spring models.
+- Evaluate easing curves for UI/gameplay, referencing Robert Penner's easing equations.
+- Exercises: prototype a camera follow system with smooth damp, create easing curve visualizers, and tune spring parameters for snappy yet stable movement.
+- Resources: Gaffer on Games articles by Glenn Fiedler, *Game Programming Gems* kinematics entries, and Catlike Coding's smoothing tutorials.
+
+## Word List
+- a
+- acceleration
+- and
+- angular
+- articles
+- by
+- camera
+- catlike
+- characteristics
+- coding's
+- compare
+- cover
+- create
+- critically
+- curve
+- curves
+- damp
+- damped
+- easing
+- entries
+- equations
+- error
+- euler
+- evaluate
+- exercises
+- fiedler
+- follow
+- for
+- gaffer
+- game
+- gameplay
+- games
+- gems
+- glenn
+- implement
+- implicit
+- integration
+- interpolation
+- jerk
+- kinematics
+- kutta
+- learn
+- lerp
+- linear
+- models
+- movement
+- numerical
+- on
+- parameters
+- penner's
+- position
+- programming
+- prototype
+- referencing
+- resources
+- robert
+- runge
+- schemes
+- semi
+- slerp
+- smooth
+- smoothing
+- smoothstep
+- snappy
+- spring
+- stable
+- system
+- techniques
+- tune
+- tutorials
+- ui
+- velocity
+- visualizers
+- with
+- yet

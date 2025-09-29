@@ -1,0 +1,135 @@
+# Custom Inspectors, Editor Scripting, and Tooling Workflows
+- **Inspector customization:** Build property drawers and editor windows that reduce repetitive setup. Example: a `ReorderableList` for enemy spawn waves.
+- **Editor automation:** Script menu commands for scene validation, linting, or asset migration. Integrate with `AssetPostprocessor` to enforce naming conventions or compression settings.
+- **UI Toolkit vs. IMGUI:** Prototype the same tool in both systems to understand retained-mode vs. immediate-mode trade-offs.
+- **Testing editor tools:** Add editor integration tests (`UnityEditor.TestTools`) to prevent regressions when Unity upgrades.
+- **Versioning:** Package reusable tools into UPM packages (inside `Packages/`) and document install steps in `docs/tooling`.
+- **Exercises:** Create a custom inspector for a data-driven ability system that highlights missing assets and provides quick links to related ScriptableObjects.
+- **Reference material:**
+  - [Unity Manual: Custom Editors](https://docs.unity3d.com/Manual/editor-CustomEditors.html)
+  - [Unity Manual: Extending the Editor](https://docs.unity3d.com/Manual/ExtendingTheEditor.html)
+  - [Unity UI Toolkit Documentation](https://docs.unity3d.com/Manual/UIE-getting-started.html)
+  - [Unity Test Framework: Editor Tests](https://docs.unity3d.com/Packages/com.unity.test-framework@latest/manual/reference-components-editor-tests.html)
+  - [Odin Inspector Blog — Advanced Inspector Workflows](https://odininspector.com/blog)
+
+## Word List
+- a
+- ability
+- add
+- advanced
+- and
+- asset
+- assetpostprocessor
+- assets
+- automation
+- blog
+- both
+- build
+- com
+- commands
+- components
+- compression
+- conventions
+- create
+- custom
+- customeditors
+- customization
+- data
+- docs
+- document
+- documentation
+- drawers
+- driven
+- editor
+- editors
+- enemy
+- enforce
+- example
+- exercises
+- extending
+- extendingtheeditor
+- for
+- framework
+- getting
+- highlights
+- html
+- https
+- imgui
+- immediate
+- in
+- inside
+- inspector
+- inspectors
+- install
+- integrate
+- integration
+- into
+- latest
+- links
+- linting
+- manual
+- material
+- menu
+- migration
+- missing
+- mode
+- naming
+- odin
+- odininspector
+- offs
+- or
+- package
+- packages
+- prevent
+- property
+- prototype
+- provides
+- quick
+- reduce
+- reference
+- regressions
+- related
+- reorderablelist
+- repetitive
+- retained
+- reusable
+- same
+- scene
+- script
+- scriptableobjects
+- scripting
+- settings
+- setup
+- spawn
+- started
+- steps
+- system
+- systems
+- test
+- testing
+- tests
+- testtools
+- that
+- the
+- to
+- tool
+- tooling
+- toolkit
+- tools
+- trade
+- ui
+- uie
+- understand
+- unity
+- unity3d
+- unityeditor
+- upgrades
+- upm
+- validation
+- versioning
+- vs
+- waves
+- when
+- windows
+- with
+- workflows

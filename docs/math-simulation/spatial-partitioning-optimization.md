@@ -1,0 +1,88 @@
+# Spatial Partitioning & Optimization
+- Understand uniform grids, quadtrees, octrees, BSP trees, and bounding volume hierarchies.
+- Evaluate trade-offs: memory usage, update cost, and query performance for static vs dynamic scenes.
+- Implement broad-phase collision detection using spatial hashing or sweep-and-prune.
+- Profile cache coherence, data-oriented layouts, and SIMD opportunities in spatial queries.
+- Exercises: build a quadtree for 2D collision, compare grid vs tree partitioning under moving entities, and visualize partition structures during runtime.
+- Resources: *Real-Time Collision Detection* (Christer Ericson), GDC talks on data-oriented design, and Wicked Engine dev blog deep dives.
+
+## Word List
+- 2d
+- a
+- and
+- blog
+- bounding
+- broad
+- bsp
+- build
+- cache
+- christer
+- coherence
+- collision
+- compare
+- cost
+- data
+- deep
+- design
+- detection
+- dev
+- dives
+- during
+- dynamic
+- engine
+- entities
+- ericson
+- evaluate
+- exercises
+- for
+- gdc
+- grid
+- grids
+- hashing
+- hierarchies
+- implement
+- in
+- layouts
+- memory
+- moving
+- octrees
+- offs
+- on
+- opportunities
+- optimization
+- or
+- oriented
+- partition
+- partitioning
+- performance
+- phase
+- profile
+- prune
+- quadtree
+- quadtrees
+- queries
+- query
+- real
+- resources
+- runtime
+- scenes
+- simd
+- spatial
+- static
+- structures
+- sweep
+- talks
+- time
+- trade
+- tree
+- trees
+- under
+- understand
+- uniform
+- update
+- usage
+- using
+- visualize
+- volume
+- vs
+- wicked

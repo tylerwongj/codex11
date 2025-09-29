@@ -1,0 +1,398 @@
+# Unity Learning Roadmap
+
+## C# Foundations
+- Variables, expressions, and type system (value vs reference)
+- Control flow: conditionals, loops, pattern matching with switch expressions
+- Methods, parameters (ref/out), return values, overloading
+- Classes, structs, encapsulation, constructors, access modifiers
+- Properties, auto-properties, indexers, object and collection initializers
+
+## C# Intermediate
+- Inheritance, interfaces, polymorphism, abstract classes
+- Generics: type constraints, generic collections, variance basics
+- Delegates, events, lambdas, Action/Func usage
+- Error handling with exceptions, custom exceptions, try/finally patterns
+- Memory management, garbage collection, IDisposable, using statements
+
+## Data and Organisation
+- Collections: arrays, List<>, Dictionary<>, Queue<>, LINQ fundamentals
+- Enumerations, flags enums, bitwise operations where useful
+- Basic algorithms: searching, sorting, iteration patterns in built-in APIs
+- Serialization basics: JSON, ScriptableObjects, PlayerPrefs considerations
+
+## Unity Core Concepts
+- Unity project layout, scenes, prefabs, assets, build targets
+- MonoBehaviour lifecycle (Awake, Start, Update, coroutines) and script execution order
+- GameObjects, Transforms, components, prefab variants, script references
+- Serialization rules in Unity (public fields, [SerializeField], ScriptableObjects)
+- Scene management (SceneManager, additive loading, persistent managers)
+
+## Unity Gameplay Systems
+- Input systems (legacy Input vs new Input System)
+- Physics: Rigidbodies, colliders, triggers, physics events, layers and masks
+- Animation basics, Animator Controller, state machines, blend trees
+- UI Toolkit and/or Unity UI (RectTransform, Canvas, anchoring, Events)
+- Audio (AudioSource, AudioListener, audio mixer basics)
+
+## Advanced Unity Topics
+- ScriptableObject architecture, event channels, data-driven design
+- Addressables, asset bundles, resource management, loading strategies
+- Profiling, performance optimization, memory usage, frame budget
+- Custom inspectors, editor scripting, tooling workflows
+- Building for platforms, player settings, build pipeline, CI basics
+
+## Game Programming Patterns
+- Entity-component principles, composition over inheritance
+- State machines, command pattern, service locators, dependency injection options
+- Event buses vs C# events vs UnityEvents trade-offs
+- Data-oriented design concepts, ECS exposure (Unity DOTS)
+- Scene architecture: managers, singleton pitfalls, modular systems
+
+## Math and Simulation
+- Vector math, dot and cross product, normalization, quaternions, Euler pitfalls
+- Coordinate systems, transformations, world and local space conversions
+- Basic kinematics, interpolation (lerp, smooth damp), easing functions
+- Randomness, noise generation, procedural basics
+- Spatial partitioning (grids, quadtrees) for optimization
+
+## Testing and Quality
+- Unity Test Framework, play mode vs edit mode tests
+- Mocking and data isolation strategies for MonoBehaviours
+- Debugging tools (Debug.Draw, gizmos, log levels, debugger attachment)
+- Version control workflows (Git with Unity, .gitignore, meta files)
+
+## Tooling and Workflow
+- IDE: Visual Studio or Rider setup, code analysis, Unity integration
+- Package Manager usage, managing dependencies, custom packages
+- Continuous integration, automated builds, crash and analytics instrumentation
+- Asset pipeline basics (import settings, compression, platform overrides)
+
+## Supplementary Topics
+- Basic shader knowledge (Shader Graph vs hand-written, URP vs HDRP)
+- Networking options (Netcode for GameObjects, Mirror, Photon)
+- Save systems, persistence strategies, cloud save considerations
+- Live ops: telemetry collection, A/B testing, content updates
+- Team collaboration: scene and prefab merge strategies, task tracking, code reviews
+
+## Word List
+- a
+- abstract
+- access
+- action
+- additive
+- addressables
+- advanced
+- algorithms
+- analysis
+- analytics
+- anchoring
+- and
+- animation
+- animator
+- apis
+- architecture
+- arrays
+- asset
+- assets
+- attachment
+- audio
+- audiolistener
+- audiosource
+- auto
+- automated
+- awake
+- b
+- basic
+- basics
+- bitwise
+- blend
+- budget
+- build
+- building
+- builds
+- built
+- bundles
+- buses
+- c
+- canvas
+- channels
+- ci
+- classes
+- cloud
+- code
+- collaboration
+- collection
+- collections
+- colliders
+- command
+- component
+- components
+- composition
+- compression
+- concepts
+- conditionals
+- considerations
+- constraints
+- constructors
+- content
+- continuous
+- control
+- controller
+- conversions
+- coordinate
+- core
+- coroutines
+- crash
+- cross
+- custom
+- damp
+- data
+- debug
+- debugger
+- debugging
+- delegates
+- dependencies
+- dependency
+- design
+- dictionary
+- dot
+- dots
+- draw
+- driven
+- easing
+- ecs
+- edit
+- editor
+- encapsulation
+- entity
+- enumerations
+- enums
+- error
+- euler
+- event
+- events
+- exceptions
+- execution
+- exposure
+- expressions
+- fields
+- files
+- finally
+- flags
+- flow
+- for
+- foundations
+- frame
+- framework
+- func
+- functions
+- fundamentals
+- game
+- gameobjects
+- gameplay
+- garbage
+- generation
+- generic
+- generics
+- git
+- gitignore
+- gizmos
+- graph
+- grids
+- hand
+- handling
+- hdrp
+- ide
+- idisposable
+- import
+- in
+- indexers
+- inheritance
+- initializers
+- injection
+- input
+- inspectors
+- instrumentation
+- integration
+- interfaces
+- intermediate
+- interpolation
+- isolation
+- iteration
+- json
+- kinematics
+- knowledge
+- lambdas
+- layers
+- layout
+- learning
+- legacy
+- lerp
+- levels
+- lifecycle
+- linq
+- list
+- live
+- loading
+- local
+- locators
+- log
+- loops
+- machines
+- management
+- manager
+- managers
+- managing
+- masks
+- matching
+- math
+- memory
+- merge
+- meta
+- methods
+- mirror
+- mixer
+- mocking
+- mode
+- modifiers
+- modular
+- monobehaviour
+- monobehaviours
+- netcode
+- networking
+- new
+- noise
+- normalization
+- object
+- offs
+- operations
+- ops
+- optimization
+- options
+- or
+- order
+- organisation
+- oriented
+- out
+- over
+- overloading
+- overrides
+- package
+- packages
+- parameters
+- partitioning
+- pattern
+- patterns
+- performance
+- persistence
+- persistent
+- photon
+- physics
+- pipeline
+- pitfalls
+- platform
+- platforms
+- play
+- player
+- playerprefs
+- polymorphism
+- prefab
+- prefabs
+- principles
+- procedural
+- product
+- profiling
+- programming
+- project
+- properties
+- public
+- quadtrees
+- quality
+- quaternions
+- queue
+- randomness
+- recttransform
+- ref
+- reference
+- references
+- resource
+- return
+- reviews
+- rider
+- rigidbodies
+- roadmap
+- rules
+- save
+- scene
+- scenemanager
+- scenes
+- script
+- scriptableobject
+- scriptableobjects
+- scripting
+- searching
+- serialization
+- serializefield
+- service
+- settings
+- setup
+- shader
+- simulation
+- singleton
+- smooth
+- sorting
+- space
+- spatial
+- start
+- state
+- statements
+- strategies
+- structs
+- studio
+- supplementary
+- switch
+- system
+- systems
+- targets
+- task
+- team
+- telemetry
+- test
+- testing
+- tests
+- tooling
+- toolkit
+- tools
+- topics
+- tracking
+- trade
+- transformations
+- transforms
+- trees
+- triggers
+- try
+- type
+- ui
+- unity
+- unityevents
+- update
+- updates
+- urp
+- usage
+- useful
+- using
+- value
+- values
+- variables
+- variance
+- variants
+- vector
+- version
+- visual
+- vs
+- where
+- with
+- workflow
+- workflows
+- world
+- written

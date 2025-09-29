@@ -1,0 +1,82 @@
+# Coordinate Systems & Transformations
+- Review right-handed vs left-handed systems and the impact on cross products and rendering.
+- Study homogeneous coordinates, transformation matrices, and chain composition.
+- Implement world↔local space conversions, including parent-child hierarchy transforms.
+- Analyze common pitfalls: precision drift, incorrect order of operations, and scale shearing.
+- Exercises: build a simple transform stack, convert between engine coordinate conventions, and author gizmos that visualize basis vectors.
+- Resources: *Game Engine Architecture* (Gregory) chapter on math, Unity and Unreal docs on transforms, and Jamis Buck's matrix visualization posts.
+
+## Word List
+- a
+- analyze
+- and
+- architecture
+- author
+- basis
+- between
+- buck's
+- build
+- chain
+- chapter
+- child
+- common
+- composition
+- conventions
+- conversions
+- convert
+- coordinate
+- coordinates
+- cross
+- docs
+- drift
+- engine
+- exercises
+- game
+- gizmos
+- gregory
+- handed
+- hierarchy
+- homogeneous
+- impact
+- implement
+- including
+- incorrect
+- jamis
+- left
+- local
+- math
+- matrices
+- matrix
+- of
+- on
+- operations
+- order
+- parent
+- pitfalls
+- posts
+- precision
+- products
+- rendering
+- resources
+- review
+- right
+- scale
+- shearing
+- simple
+- space
+- stack
+- study
+- systems
+- that
+- the
+- transform
+- transformation
+- transformations
+- transforms
+- unity
+- unreal
+- vectors
+- visualization
+- visualize
+- vs
+- world

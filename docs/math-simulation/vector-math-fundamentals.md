@@ -1,0 +1,81 @@
+# Vector Math Fundamentals
+- Master vector operations: addition, subtraction, scalar multiplication.
+- Deep-dive dot and cross products; analyze geometric interpretations and practical use cases.
+- Practice vector normalization and projection with numerical stability considerations.
+- Explore quaternion algebra, conversions to/from Euler angles, and understand gimbal lock pitfalls.
+- Exercises: derive view-direction vectors, implement quaternion-based rotations, and debug Euler edge cases in small scripts.
+- Resources: *3D Math Primer for Graphics and Game Development* (Dunn/Parberry), Freya Holmer's vector math video series, and the *Quaternion Calculus for Animation* SIGGRAPH course notes.
+
+## Word List
+- 3d
+- addition
+- algebra
+- analyze
+- and
+- angles
+- animation
+- based
+- calculus
+- cases
+- considerations
+- conversions
+- course
+- cross
+- debug
+- deep
+- derive
+- development
+- direction
+- dive
+- dot
+- dunn
+- edge
+- euler
+- exercises
+- explore
+- for
+- freya
+- from
+- fundamentals
+- game
+- geometric
+- gimbal
+- graphics
+- holmer's
+- implement
+- in
+- interpretations
+- lock
+- master
+- math
+- multiplication
+- normalization
+- notes
+- numerical
+- operations
+- parberry
+- pitfalls
+- practical
+- practice
+- primer
+- products
+- projection
+- quaternion
+- resources
+- rotations
+- scalar
+- scripts
+- series
+- siggraph
+- small
+- stability
+- subtraction
+- the
+- to
+- understand
+- use
+- vector
+- vectors
+- video
+- view
+- with

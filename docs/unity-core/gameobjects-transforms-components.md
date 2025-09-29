@@ -1,0 +1,105 @@
+# GameObjects, Transforms, Components, Prefab Variants, and Script References
+- **GameObjects:** Treat them as containers; every gameplay entity is composed of multiple components.
+- **Transforms:** Manipulate position, rotation, and scale. Practice both local (`transform.localPosition`) and world (`transform.position`) space adjustments.
+- **Component-based design:** Compose behavior by attaching scripts, renderers, colliders, and audio components. Use `GetComponent`, `GetComponentInChildren`, and cached references to manage performance.
+- **Prefab variants:** Demonstrate inheritance-like behavior by creating variants for enemies with shared base stats but customized visuals or abilities.
+- **Script references:** Assign references either via inspector drag-and-drop, `SerializeField`, or runtime discovery. Compare the cost and reliability of each approach.
+- **Hierarchy best practices:** Group related objects under empty GameObjects (e.g., `Enemies`, `Interactables`). Reset transforms on parent containers to avoid unwanted offsets.
+
+## Word List
+- abilities
+- adjustments
+- and
+- approach
+- as
+- assign
+- attaching
+- audio
+- avoid
+- base
+- based
+- behavior
+- best
+- both
+- but
+- by
+- cached
+- colliders
+- compare
+- component
+- components
+- compose
+- composed
+- containers
+- cost
+- creating
+- customized
+- demonstrate
+- design
+- discovery
+- drag
+- drop
+- e
+- each
+- either
+- empty
+- enemies
+- entity
+- every
+- for
+- g
+- gameobjects
+- gameplay
+- getcomponent
+- getcomponentinchildren
+- group
+- hierarchy
+- inheritance
+- inspector
+- interactables
+- is
+- like
+- local
+- localposition
+- manage
+- manipulate
+- multiple
+- objects
+- of
+- offsets
+- on
+- or
+- parent
+- performance
+- position
+- practice
+- practices
+- prefab
+- references
+- related
+- reliability
+- renderers
+- reset
+- rotation
+- runtime
+- scale
+- script
+- scripts
+- serializefield
+- shared
+- space
+- stats
+- the
+- them
+- to
+- transform
+- transforms
+- treat
+- under
+- unwanted
+- use
+- variants
+- via
+- visuals
+- with
+- world

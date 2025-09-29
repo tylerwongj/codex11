@@ -1,0 +1,128 @@
+# Addressables, Asset Bundles, and Resource Management
+- **Asset labeling:** Learn how Addressables groups, labels, and addressable keys control build content and runtime queries. Practice tagging assets for DLC, platform-specific content, and localized bundles.
+- **Loading workflows:** Compare `Addressables.LoadAssetAsync`, `InstantiateAsync`, and preloading via `DownloadDependenciesAsync`. Measure load times with Unity Profiler and note memory spikes.
+- **Legacy vs. modern pipelines:** Review when classic AssetBundles or `Resources` are still viable and how to migrate toward Addressables for remote content delivery.
+- **Caching strategies:** Configure caching behavior, versioning, and catalog updates. Simulate offline scenarios and confirm graceful fallbacks.
+- **Exercises:** Build a content update testbed that swaps character skins at runtime without a full build redeploy. Automate verification by logging bundle sizes and timestamps.
+- **Reference material:**
+  - [Unity Addressables Manual](https://docs.unity3d.com/Packages/com.unity.addressables@latest/index.html)
+  - [Unity Learn: Getting Started with Addressables](https://learn.unity.com/tutorial/getting-started-with-addressables)
+  - [Unity Addressables Sample Project](https://github.com/Unity-Technologies/Addressables-Sample)
+  - [Unity Blog: Addressables Roadmap Update (2023)](https://blog.unity.com/engine-platform/addressables-roadmap-update-2023)
+
+## Word List
+- 2023
+- a
+- addressable
+- addressables
+- and
+- are
+- asset
+- assetbundles
+- assets
+- at
+- automate
+- behavior
+- blog
+- build
+- bundle
+- bundles
+- by
+- caching
+- catalog
+- character
+- classic
+- com
+- compare
+- configure
+- confirm
+- content
+- control
+- delivery
+- dlc
+- docs
+- downloaddependenciesasync
+- engine
+- exercises
+- fallbacks
+- for
+- full
+- getting
+- github
+- graceful
+- groups
+- how
+- html
+- https
+- index
+- instantiateasync
+- keys
+- labeling
+- labels
+- latest
+- learn
+- legacy
+- load
+- loadassetasync
+- loading
+- localized
+- logging
+- management
+- manual
+- material
+- measure
+- memory
+- migrate
+- modern
+- note
+- offline
+- or
+- packages
+- pipelines
+- platform
+- practice
+- preloading
+- profiler
+- project
+- queries
+- redeploy
+- reference
+- remote
+- resource
+- resources
+- review
+- roadmap
+- runtime
+- sample
+- scenarios
+- simulate
+- sizes
+- skins
+- specific
+- spikes
+- started
+- still
+- strategies
+- swaps
+- tagging
+- technologies
+- testbed
+- that
+- times
+- timestamps
+- to
+- toward
+- tutorial
+- unity
+- unity3d
+- update
+- updates
+- verification
+- versioning
+- via
+- viable
+- vs
+- when
+- with
+- without
+- workflows

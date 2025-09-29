@@ -1,0 +1,127 @@
+# Physics Building Blocks
+
+## Key Concepts
+- Rigidbodies enable dynamic motion and physics simulation; use kinematic bodies for scripted motion.
+- Colliders define shape; combine primitive colliders for performance, mesh colliders for exact geometry.
+- Triggers detect overlaps without physical response; subscribe to `OnTriggerEnter` and related events.
+- Layers and masks let you filter collisions and raycasts, enabling selective physics interactions.
+- Physics materials tweak friction and bounciness to tune gameplay feel.
+
+## Practice Checklist
+- Create destructible props using compound colliders and mass distribution.
+- Author trigger zones for pickups, damage volumes, and area-based AI behaviors.
+- Build raycast-based interaction (e.g., grappling hook) with layer masks to exclude UI or terrain.
+- Implement custom gravity or physics forces using `AddForce` and `FixedUpdate` loops.
+
+## References
+- Unity Docs: Rigidbody API, Collider types, Collision matrix.
+- Tutorials: Brackeys physics introduction, Unity official microgame physics labs.
+
+## Word List
+- addforce
+- ai
+- and
+- api
+- area
+- author
+- based
+- behaviors
+- blocks
+- bodies
+- bounciness
+- brackeys
+- build
+- building
+- checklist
+- collider
+- colliders
+- collision
+- collisions
+- combine
+- compound
+- concepts
+- create
+- custom
+- damage
+- define
+- destructible
+- detect
+- distribution
+- docs
+- dynamic
+- e
+- enable
+- enabling
+- events
+- exact
+- exclude
+- feel
+- filter
+- fixedupdate
+- for
+- forces
+- friction
+- g
+- gameplay
+- geometry
+- grappling
+- gravity
+- hook
+- implement
+- interaction
+- interactions
+- introduction
+- key
+- kinematic
+- labs
+- layer
+- layers
+- let
+- loops
+- masks
+- mass
+- materials
+- matrix
+- mesh
+- microgame
+- motion
+- official
+- ontriggerenter
+- or
+- overlaps
+- performance
+- physical
+- physics
+- pickups
+- practice
+- primitive
+- props
+- raycast
+- raycasts
+- references
+- related
+- response
+- rigidbodies
+- rigidbody
+- scripted
+- selective
+- shape
+- simulation
+- subscribe
+- terrain
+- to
+- trigger
+- triggers
+- tune
+- tutorials
+- tweak
+- types
+- ui
+- unity
+- use
+- using
+- volumes
+- with
+- without
+- you
+- zones

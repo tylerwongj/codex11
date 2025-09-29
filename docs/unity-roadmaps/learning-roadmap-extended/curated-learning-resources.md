@@ -1,0 +1,187 @@
+# Curated Learning Resources
+
+## Timeline
+- Start of month: Audit existing list, remove outdated links, and add new priorities aligned to active milestones.
+- Weekly: Consume at least one resource per active module and summarize learnings.
+- Quarterly: Deep clean the knowledge base, tagging resources by impact and difficulty.
+
+## Suggested Resources
+- Unity Learn: Mission-based pathways (Junior Programmer, Creator Kits) and relevant microgames.
+- Conferences/Talks: GDC Vault playlists, Unite sessions, Nordic Game and Game UX Summit archives.
+- Newsletters/Communities: Game Dev Digest, Unity Blogs, r/Unity3D highlights, professional Discord servers.
+- Sample Repos: Official Unity samples, Open Project, community-maintained toolkits (e.g., Odin Inspector examples).
+
+## Deliverables
+- Resource index spreadsheet or database with tags, time investment, and relevance score.
+- Annotated summaries capturing key insights, questions, and action items.
+- Skill map linking roadmap modules to the resources that unlocked each competency.
+- Backlog of future reads/watch items prioritized by upcoming milestones.
+
+## Tracking & Reflection
+- Use knowledge management tools (Notion, Obsidian, Dendron) to version notes and track completion dates.
+- Apply spaced-repetition or review cadences to revisit high-value content.
+- Share monthly highlights with peers/mentors to reinforce learning and gather recommendations.
+- Monitor gaps (e.g., networking, shaders) and schedule dedicated discovery sprints.
+
+## Word List
+- action
+- active
+- add
+- aligned
+- and
+- annotated
+- apply
+- archives
+- at
+- audit
+- backlog
+- base
+- based
+- blogs
+- by
+- cadences
+- capturing
+- clean
+- communities
+- community
+- competency
+- completion
+- conferences
+- consume
+- content
+- creator
+- curated
+- database
+- dates
+- dedicated
+- deep
+- deliverables
+- dendron
+- dev
+- difficulty
+- digest
+- discord
+- discovery
+- e
+- each
+- examples
+- existing
+- future
+- g
+- game
+- gaps
+- gather
+- gdc
+- high
+- highlights
+- impact
+- index
+- insights
+- inspector
+- investment
+- items
+- junior
+- key
+- kits
+- knowledge
+- learn
+- learning
+- learnings
+- least
+- linking
+- links
+- list
+- maintained
+- management
+- map
+- mentors
+- microgames
+- milestones
+- mission
+- module
+- modules
+- monitor
+- month
+- monthly
+- networking
+- new
+- newsletters
+- nordic
+- notes
+- notion
+- obsidian
+- odin
+- of
+- official
+- one
+- open
+- or
+- outdated
+- pathways
+- peers
+- per
+- playlists
+- priorities
+- prioritized
+- professional
+- programmer
+- project
+- quarterly
+- questions
+- r
+- reads
+- recommendations
+- reflection
+- reinforce
+- relevance
+- relevant
+- remove
+- repetition
+- repos
+- resource
+- resources
+- review
+- revisit
+- roadmap
+- sample
+- samples
+- schedule
+- score
+- servers
+- sessions
+- shaders
+- share
+- skill
+- spaced
+- spreadsheet
+- sprints
+- start
+- suggested
+- summaries
+- summarize
+- summit
+- tagging
+- tags
+- talks
+- that
+- the
+- time
+- timeline
+- to
+- toolkits
+- tools
+- track
+- tracking
+- unite
+- unity
+- unity3d
+- unlocked
+- upcoming
+- use
+- ux
+- value
+- vault
+- version
+- watch
+- weekly
+- with

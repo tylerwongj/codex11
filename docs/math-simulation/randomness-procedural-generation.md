@@ -1,0 +1,75 @@
+# Randomness & Procedural Generation
+- Study pseudo-random number generators, seeds, and reproducibility strategies.
+- Implement white, pink, and Perlin/Simplex noise; compare spectral properties and performance.
+- Explore procedural content basics: terrain heightmaps, scatter placement, and modular assembly.
+- Review sampling techniques: stratified, Poisson disk, blue noise, and their impact on visual artifacts.
+- Exercises: generate noise-driven textures, create procedural level layouts, and benchmark RNG variants for bias.
+- Resources: *Texturing & Modeling: A Procedural Approach*, Inigo Quilez's articles, and talks by Ken Perlin.
+
+## Word List
+- a
+- and
+- approach
+- articles
+- artifacts
+- assembly
+- basics
+- benchmark
+- bias
+- blue
+- by
+- compare
+- content
+- create
+- disk
+- driven
+- exercises
+- explore
+- for
+- generate
+- generation
+- generators
+- heightmaps
+- impact
+- implement
+- inigo
+- ken
+- layouts
+- level
+- modeling
+- modular
+- noise
+- number
+- on
+- performance
+- perlin
+- pink
+- placement
+- poisson
+- procedural
+- properties
+- pseudo
+- quilez's
+- random
+- randomness
+- reproducibility
+- resources
+- review
+- rng
+- sampling
+- scatter
+- seeds
+- simplex
+- spectral
+- strategies
+- stratified
+- study
+- talks
+- techniques
+- terrain
+- textures
+- texturing
+- their
+- variants
+- visual
+- white
