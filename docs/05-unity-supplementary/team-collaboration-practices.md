@@ -1,0 +1,197 @@
+# Team Collaboration: Scene/Prefab Merge Strategies, Task Tracking, Code Reviews
+- **Source control hygiene:** Standardize Git branching (kebab-case), commit conventions, and LFS usage for large assets. Reinforce locking workflows for binary files when needed.
+- **Scene and prefab merges:** Adopt Unity's Smart Merge (YAML merge) and set up `.unity`/`.prefab` reserialization to `Force Text`. Document best practices for subdividing scenes via additive loading and for breaking prefabs into smaller reusable units.
+- **Task tracking:** Select a project management tool (Jira, Linear, Notion) and define ticket states. Encourage linking commits and pull requests to tasks for traceability.
+- **Code reviews:** Establish checklists covering gameplay correctness, performance, test coverage, and documentation updates. Promote pair programming or mob review sessions for high-risk changes.
+- **Cross-discipline workflows:** Schedule regular content syncs between designers, artists, and programmers. Document handoff expectations (e.g., scene validation passes, asset naming) within this collaboration module so expectations stay discoverable.
+- **Exercises:** Facilitate a mock merge conflict resolution session on a shared scene and iterate on the documented playbook based on the outcome.
+- **Reference material:** Unity Smart Merge documentation; Git best practices; "Collaborating on Scenes" Unite talks.
+
+## Scene Merge Checklist
+```text
+1. Create a temporary branch
+2. Pull teammates' latest scene edits
+3. Use Smart Merge on .unity files
+4. Resolve lighting or navmesh updates
+```
+
+
+
+
+
+
+## References
+- [Unity version control manual](https://docs.unity.com/version-control/en/manual/overview) - Plastic SCM features and setup.
+- [Unity cloud build manual](https://docs.unity3d.com/Manual/UnityCloudBuild.html) - collaborative build automation.
+- [Unity DevOps pathway](https://learn.unity.com/pathway/unity-devops) - training on source control and pipelines.
+- [Git LFS](https://git-lfs.github.com/) - handle large binary assets in Git repositories.
+- [Unity DevOps collaboration talk](https://www.youtube.com/watch?v=71Hj4i7Gr2Y) - panel on workflows and team culture.
+## Word List
+- 1
+- 2
+- 3
+- 4
+- a
+- additive
+- adopt
+- and
+- artists
+- asset
+- assets
+- based
+- best
+- between
+- binary
+- branch
+- branching
+- breaking
+- case
+- changes
+- checklist
+- checklists
+- code
+- collaborating
+- collaboration
+- com
+- commit
+- commits
+- conflict
+- content
+- control
+- conventions
+- correctness
+- coverage
+- covering
+- create
+- cross
+- define
+- designers
+- discipline
+- discoverable
+- docs
+- document
+- documentation
+- documented
+- e
+- edits
+- encourage
+- establish
+- exercises
+- expectations
+- facilitate
+- files
+- for
+- force
+- g
+- gameplay
+- git
+- github
+- handling
+- handoff
+- high
+- html
+- https
+- hygiene
+- in
+- into
+- iterate
+- jira
+- kebab
+- large
+- latest
+- lfs
+- lighting
+- linear
+- linking
+- loading
+- locking
+- management
+- manual
+- material
+- merge
+- merges
+- mob
+- mock
+- module
+- naming
+- navmesh
+- needed
+- notion
+- on
+- or
+- outcome
+- pair
+- passes
+- performance
+- playbook
+- practices
+- prefab
+- prefabs
+- programmers
+- programming
+- project
+- promote
+- pull
+- reference
+- references
+- regular
+- reinforce
+- requests
+- reserialization
+- resolution
+- resolve
+- reusable
+- review
+- reviews
+- risk
+- scene
+- scenes
+- schedule
+- select
+- session
+- sessions
+- set
+- shared
+- smaller
+- smart
+- smartmerge
+- so
+- source
+- standardize
+- states
+- stay
+- strategies
+- subdividing
+- syncs
+- talks
+- task
+- tasks
+- team
+- teammates'
+- temporary
+- test
+- text
+- the
+- this
+- ticket
+- to
+- tool
+- tooling
+- traceability
+- tracking
+- unite
+- units
+- unity
+- unity's
+- unity3d
+- up
+- updates
+- usage
+- use
+- validation
+- version
+- via
+- when
+- within
+- workflows
+- yaml

@@ -1,0 +1,185 @@
+# IDE: Visual Studio / Rider Setup, Code Analysis, Unity Integration
+- **Environment parity:** Install the Unity Editor integration (Visual Studio Tools for Unity or Rider's Unity plugin). Verify that play mode controls, console mirroring, and shader file support work from the IDE.
+- **Solution hygiene:** Regenerate `.sln` and `.csproj` files when packages change. Confirm that assembly definitions map to IDE projects so IntelliSense mirrors runtime boundaries.
+- **Debugger fundamentals:** Practice attaching the debugger to a running editor and player build. Use breakpoints, conditional expressions, and watch windows to inspect MonoBehaviour state during gameplay.
+- **Code quality tooling:** Enable analyzers (Roslyn, Rider inspections) alongside `dotnet format` or `csharpier` to enforce style. Configure rule severities so critical diagnostics fail builds but guidance-level tips remain informational.
+- **Unity-specific productivity:** Explore Rider's Burst inspector, Visual Studio's Event Tracing for profiling, and both IDEs' gutter icons for quick scene navigation. Document hotkeys the team should share.
+- **Collaboration tip:** Store IDE settings in version control via `.editorconfig` and shared settings layers so new contributors inherit the same warnings and formatting.
+
+## Editorconfig Sample
+```ini
+[*.cs]
+indent_size = 4
+```
+
+
+
+
+
+
+## References
+- [Scripting tools and IDEs manual](https://docs.unity3d.com/Manual/ScriptingToolsIDEs.html) - official guidance on IDE integration.
+- [Visual Studio tools for Unity](https://learn.microsoft.com/en-us/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity) - setup guide for Visual Studio integration.
+- [JetBrains Rider Unity support](https://www.jetbrains.com/rider/features/unity.html) - IDE features tailored to Unity development.
+- [.NET code analysis overview](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview) - enable Roslyn analyzers and inspections.
+- [Configure IDEs tutorial](https://learn.unity.com/tutorial/configure-integrated-development-environments) - step-by-step IDE configuration.
+## Word List
+- 4
+- a
+- alongside
+- analysis
+- analyzers
+- and
+- assembly
+- attaching
+- both
+- boundaries
+- breakpoints
+- build
+- builds
+- burst
+- but
+- change
+- code
+- collaboration
+- com
+- conditional
+- configure
+- confirm
+- console
+- contributors
+- control
+- controls
+- critical
+- cs
+- csharpier
+- csproj
+- debugger
+- definitions
+- diagnostics
+- document
+- dotnet
+- during
+- editor
+- editorconfig
+- en
+- enable
+- enforce
+- environment
+- event
+- explore
+- expressions
+- fail
+- features
+- file
+- files
+- for
+- format
+- formatting
+- from
+- fundamentals
+- gamedev
+- gameplay
+- get
+- guidance
+- guide
+- gutter
+- help
+- hotkeys
+- html
+- https
+- hygiene
+- icons
+- ide
+- ides'
+- in
+- indent
+- informational
+- inherit
+- ini
+- inspect
+- inspections
+- inspector
+- install
+- integration
+- intellisense
+- jetbrains
+- layers
+- learn
+- level
+- map
+- microsoft
+- mirroring
+- mirrors
+- mode
+- monobehaviour
+- navigation
+- new
+- of
+- or
+- overview
+- packages
+- parity
+- play
+- player
+- plugin
+- practice
+- productivity
+- profiling
+- projects
+- quality
+- quick
+- references
+- regenerate
+- remain
+- rider
+- rider's
+- roslyn
+- rule
+- running
+- runtime
+- same
+- sample
+- scene
+- settings
+- setup
+- severities
+- shader
+- share
+- shared
+- should
+- size
+- sln
+- so
+- solution
+- specific
+- started
+- state
+- store
+- studio
+- studio's
+- style
+- support
+- team
+- that
+- the
+- tip
+- tips
+- to
+- tooling
+- tools
+- tracing
+- unity
+- us
+- use
+- verify
+- version
+- via
+- visual
+- visualstudio
+- warnings
+- watch
+- when
+- windows
+- work
+- www

@@ -1,0 +1,207 @@
+# Networking Options: Netcode for GameObjects, Mirror, Photon
+- **Networking models:** Survey authoritative vs. peer-to-peer architectures. Document latency budgets, rollback requirements, and input handling strategies relevant to your genre.
+- **Netcode for GameObjects (NGO):** Prototype a small co-op scene using NGO. Focus on NetworkObjects, RPC types, NetworkVariable synchronization, and scene management. Capture pain points such as bandwidth usage and host migration gaps.
+- **Mirror:** Explore Mirror's UNet-derived API. Compare setup effort, transport choices (Telepathy, kcp), and community ecosystem (addons like FizzySteamworks). Identify scenarios where Mirror's flexibility outweighs NGO's first-party integrations.
+- **Photon Fusion / PUN:** Review Photon-hosted services, pricing tiers, and server authority models. Implement a simple matchmaking flow and note data privacy implications. Evaluate how Photon tooling fits with your deployment constraints.
+- **Decision matrix:** Build a comparison table covering licensing costs, platform support, dedicated server requirements, and debugging tooling. Recommend a default networking stack for prototypes vs. production.
+- **Exercises:** Create a latency simulation harness (e.g., Unity's Network Simulator) and record how each framework handles packet loss or high ping during a basic interaction test.
+- **Reference material:** Official docs for NGO, Mirror, and Photon; Unity Multiplayer samples; GDC talks on netcode architecture.
+
+## Netcode Bootstrap
+```csharp
+private void Start()
+{
+    if (IsServer)
+    {
+        NetworkManager.Singleton.StartServer();
+    }
+}
+```
+
+
+
+
+
+
+## References
+- [Unity multiplayer docs](https://docs-multiplayer.unity3d.com/) - documentation for Netcode and multiplayer services.
+- [Netcode for GameObjects overview](https://docs-multiplayer.unity3d.com/netcode/current/about) - architecture of Unity Netcode.
+- [Mirror networking docs](https://mirror-networking.com/docs/) - open-source networking stack documentation.
+- [Fish-Networking docs](https://fish-networking.gitbook.io/docs/) - community-driven networking framework.
+- [Unity multiplayer options talk](https://www.youtube.com/watch?v=rgFOmA0QW6I) - session comparing Unity networking solutions.
+## Word List
+- a
+- about
+- addons
+- alternative
+- and
+- api
+- architecture
+- architectures
+- as
+- authoritative
+- authority
+- bandwidth
+- basic
+- bootstrap
+- budgets
+- build
+- capture
+- choices
+- co
+- com
+- community
+- compare
+- comparison
+- constraints
+- costs
+- covering
+- create
+- csharp
+- current
+- data
+- debugging
+- decision
+- dedicated
+- default
+- deployment
+- derived
+- docs
+- document
+- documentation
+- during
+- e
+- each
+- ecosystem
+- effort
+- evaluate
+- exercises
+- explore
+- first
+- fits
+- fizzysteamworks
+- flexibility
+- flow
+- focus
+- for
+- framework
+- fusion
+- g
+- gameobjects
+- gaps
+- gdc
+- genre
+- gitbook
+- handles
+- handling
+- harness
+- high
+- host
+- hosted
+- how
+- html
+- https
+- identify
+- if
+- implement
+- implications
+- index
+- input
+- integrations
+- interaction
+- io
+- isserver
+- kcp
+- latency
+- licensing
+- like
+- loss
+- management
+- matchmaking
+- material
+- matrix
+- migration
+- mirror
+- mirror's
+- models
+- multiplayer
+- netcode
+- network
+- networking
+- networkmanager
+- networkobjects
+- networkvariable
+- ngo
+- ngo's
+- note
+- official
+- on
+- op
+- options
+- or
+- outweighs
+- overview
+- packet
+- pain
+- party
+- peer
+- photon
+- ping
+- platform
+- points
+- pricing
+- privacy
+- private
+- production
+- prototype
+- prototypes
+- pun
+- recommend
+- record
+- reference
+- references
+- relevant
+- requirements
+- review
+- rollback
+- rpc
+- run
+- samples
+- scenarios
+- scene
+- server
+- services
+- setup
+- simple
+- simulation
+- simulator
+- singleton
+- small
+- stack
+- start
+- startserver
+- strategies
+- such
+- support
+- survey
+- synchronization
+- table
+- talks
+- telepathy
+- test
+- tiers
+- to
+- tooling
+- transport
+- types
+- unet
+- unity
+- unity's
+- unity3d
+- usage
+- using
+- void
+- vs
+- where
+- with
+- your

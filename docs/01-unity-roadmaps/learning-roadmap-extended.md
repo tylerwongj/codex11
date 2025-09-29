@@ -1,0 +1,354 @@
+# Unity Learning Roadmap – Extended Ideas
+
+## Milestone Projects
+- Timeline: Schedule a 4–6 week cadence per project with a one-week spike, three-week build, and polish/postmortem buffer.
+- Resources: Unity Learn microgames, Brackeys prototypes, GameMaker's Toolkit design breakdowns, project templates from community repos.
+- Deliverables: Playable build, design changelog, postmortem doc, reusable systems/package list ready for future reuse.
+- Tracking: Kanban board with scope labels, weekly burndown, and retro notes tied to Git commits or tasks.
+
+## Game Design Fundamentals
+- Timeline: Dedicate a 2-week research sprint followed by ongoing weekly review sessions while shipping milestones.
+- Resources: "The Art of Game Design" decks, GDC Vault talks on loops/psychology, Extra Credits playlists, MDA/Bartle summaries.
+- Deliverables: Loop diagrams, player persona sheets, balance spreadsheets, and documented playtest reports.
+- Tracking: Maintain a living design journal with versioned updates and tag references for implemented insights.
+
+## Art and Audio Pipeline Essentials
+- Timeline: Parallel 3-week pipeline setup alongside active milestone; reserve weekly syncs with art/audio collaborators.
+- Resources: Unity manual import guides, Audio Mixer documentation, Stylized Station or 80 Level workflow posts, FMOD/Wwise tutorials.
+- Deliverables: Pipeline checklist, asset naming convention doc, Unity preset collection, audio routing/mixer template.
+- Tracking: Automate CI validation and maintain asset review logs in version control.
+
+## Advanced C# and Performance Depth
+- Timeline: Rotate 1-week deep dives between async, jobs/burst, and profiling topics; revisit quarterly for regression sweeps.
+- Resources: Unity DOTS samples, Catlike Coding optimization series, Microsoft async best practices, Unity Profiler documentation.
+- Deliverables: Benchmark reports, performance budget sheet, reusable job system templates, profiling playbook.
+- Tracking: Store profiling captures, benchmark scripts, and regression thresholds in repo artifacts.
+
+## Platform-Specific Considerations
+- Timeline: Kick off platform research during pre-production; allocate focused 2-week spikes before each target platform milestone.
+- Resources: Official platform guidelines (Apple/Google/Sony/MS), Unity platform module docs, Oculus Dev blog, platform-specific GDC talks.
+- Deliverables: Compliance checklist, build pipeline configuration files, input abstraction layer, platform risk register.
+- Tracking: Maintain launch-readiness tracker with blocker status and certification evidence.
+
+## Curated Learning Resources
+- Timeline: Review/refresh list monthly; pair each milestone with at least two targeted resources.
+- Resources: Unity Learn pathways, GDC Vault playlists, conference recordings, curated newsletters (Game Dev Digest), taxonomy of sample repos.
+- Deliverables: Tagged resource index, annotated summaries, resource-to-skill mapping chart, backlog of content to revisit.
+- Tracking: Use spaced-repetition or knowledge base tooling (Notion/Obsidian) with completion timestamps and takeaways.
+
+## Weekly Planner Example
+```yaml
+milestone:
+  week0: planning
+  weeks1_3: build core systems
+  week4: polish_playtest
+  week5: postmortem_archives
+```
+
+
+
+
+
+
+## References
+- [Unity learning plans](https://learn.unity.com/) - catalog of official Unity courses and pathways.
+- [Unity roadmap talks playlist](https://www.youtube.com/playlist?list=PLX2vGYjWbI0SDfFVGHjnoYzo-L6C8dC1L) - playlist of Unite roadmap sessions.
+- [GDC Vault](https://www.gdcvault.com/) - conference talks covering production and Unity case studies.
+- [Game Dev Guide playlists](https://www.youtube.com/c/gamedevguide/playlists) - focused Unity tutorials and deep dives.
+- [Unity blog updates](https://blog.unity.com/) - ongoing articles on new features and workflows.
+## Word List
+- 1
+- 2
+- 3
+- 4
+- 6
+- 80
+- a
+- abstraction
+- active
+- adds
+- advanced
+- allocate
+- alongside
+- and
+- annotated
+- apple
+- archives
+- art
+- artifacts
+- asset
+- async
+- at
+- audio
+- automate
+- backlog
+- balance
+- bartle
+- base
+- before
+- benchmark
+- best
+- between
+- blocker
+- blog
+- board
+- brackeys
+- breakdowns
+- budget
+- buffer
+- build
+- burndown
+- burst
+- by
+- c
+- cadence
+- captures
+- catlike
+- certification
+- changelog
+- chart
+- checklist
+- ci
+- coding
+- collaborators
+- collection
+- com
+- commits
+- community
+- completion
+- compliance
+- conference
+- configuration
+- considerations
+- content
+- control
+- convention
+- core
+- creative
+- credits
+- curated
+- decks
+- dedicate
+- deep
+- deliverables
+- depth
+- design
+- dev
+- diagrams
+- digest
+- dives
+- doc
+- docs
+- documentation
+- documented
+- dots
+- during
+- each
+- essentials
+- evidence
+- example
+- extended
+- extra
+- files
+- fmod
+- focused
+- followed
+- for
+- from
+- fundamentals
+- future
+- game
+- gamemaker's
+- gdc
+- git
+- google
+- guide
+- guidelines
+- guides
+- https
+- ideas
+- implemented
+- import
+- in
+- index
+- input
+- insights
+- job
+- jobs
+- journal
+- kanban
+- kick
+- knowledge
+- labels
+- launch
+- layer
+- learn
+- learning
+- least
+- level
+- list
+- living
+- logs
+- loop
+- loops
+- maintain
+- manual
+- mapping
+- mda
+- microgames
+- microsoft
+- milestone
+- milestones
+- mixer
+- module
+- monthly
+- ms
+- naming
+- newsletters
+- notes
+- notion
+- obsidian
+- oculus
+- of
+- off
+- official
+- on
+- one
+- ongoing
+- optimization
+- or
+- package
+- pair
+- parallel
+- pathway
+- pathways
+- per
+- performance
+- persona
+- pipeline
+- planner
+- planning
+- platform
+- playable
+- playbook
+- player
+- playlists
+- playtest
+- polish
+- postmortem
+- posts
+- practice
+- practices
+- pre
+- preset
+- production
+- profiler
+- profiling
+- project
+- projects
+- prototypes
+- prototyping
+- psychology
+- quarterly
+- rapid
+- readiness
+- ready
+- recordings
+- references
+- refresh
+- register
+- regression
+- repetition
+- repo
+- reports
+- repos
+- research
+- reserve
+- resource
+- resources
+- retro
+- reusable
+- reuse
+- review
+- revisit
+- risk
+- roadmap
+- rotate
+- routing
+- sample
+- samples
+- schedule
+- scope
+- scoping
+- scripts
+- series
+- sessions
+- setup
+- sheet
+- sheets
+- shipping
+- skill
+- sony
+- spaced
+- specific
+- spike
+- spikes
+- spreadsheets
+- sprint
+- station
+- status
+- store
+- stylized
+- summaries
+- sweeps
+- syncs
+- system
+- systems
+- tag
+- tagged
+- takeaways
+- talks
+- target
+- targeted
+- tasks
+- taxonomy
+- template
+- templates
+- the
+- three
+- thresholds
+- tied
+- timeline
+- timestamps
+- to
+- tooling
+- toolkit
+- topics
+- tracker
+- tracking
+- tutorials
+- two
+- unity
+- updates
+- use
+- uvcri1tqixq
+- v
+- validation
+- vault
+- version
+- versioned
+- video
+- watch
+- week
+- week0
+- week4
+- week5
+- weekly
+- weeks1
+- while
+- with
+- workflow
+- wwise
+- www
+- yaml
+- youtube

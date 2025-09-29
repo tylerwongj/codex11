@@ -1,0 +1,178 @@
+# Building for Platforms, Player Settings, Build Pipeline, and CI Basics
+- **Player settings:** Compare quality, rendering, and platform toggles across desktop, mobile, and console. Capture recommended defaults in `config/player_settings.yaml`.
+- **Automated builds:** Script builds via `UnityEditor.BuildPipeline.BuildPlayer` or the Unity CLI with `-projectPath` and `-buildTarget`. Log outputs to `logs/` for CI artifact inspection.
+- **Build validation:** Implement pre-build checks for missing references, shader variant stripping, and Addressables content rebuilds.
+- **CI integration:** Create a pipeline outline using GitHub Actions or Unity Cloud Build. Include steps for caching the Library folder, running `make lint`, `make test`, and headless builds.
+- **Release channels:** Plan staging vs. production build profiles, and use Scripting Define Symbols to toggle features. Document release notes in the shared changelog under `docs/11-meta/`.
+- **Exercises:** Configure a nightly build job that outputs platform-specific bundles and uploads them to a shared drive or artifact store.
+- **Reference material:**
+  - [Unity Manual: Player Settings](https://docs.unity3d.com/Manual/class-PlayerSettings.html)
+  - [Unity Scripting API: BuildPipeline.BuildPlayer](https://docs.unity3d.com/ScriptReference/BuildPipeline.BuildPlayer.html)
+  - [Unity Manual: Command Line Arguments](https://docs.unity3d.com/Manual/CommandLineArguments.html)
+  - [Unity Cloud Build Documentation](https://docs.unity3d.com/Manual/UnityCloudBuild.html)
+  - [Unity Manual: Platform Specific Considerations](https://docs.unity3d.com/Manual/PlatformSpecific.html)
+
+## CLI Build Command
+```bash
+/Applications/Unity/Hub/Editor/2022.3.0f1/Unity \
+  -batchmode -quit \
+  -projectPath ./UnityProject \
+  -executeMethod BuildPipelineRunner.BuildStandalonePlayer \
+  -buildTarget StandaloneOSX
+```
+
+
+
+
+
+
+## References
+- [Scriptable Build Pipeline manual](https://docs.unity3d.com/Manual/com.unity.scriptablebuildpipeline.html) - package improving build repeatability.
+- [Build pipeline manual](https://docs.unity3d.com/Manual/BuildPlayerPipeline.html) - how Unity produces player builds.
+- [Build settings documentation](https://docs.unity3d.com/Manual/BuildSettings.html) - configure targets, compression, and options.
+- [Scriptable Build Pipeline tutorial](https://learn.unity.com/tutorial/scriptable-build-pipeline) - customize build steps through scripting.
+- [Automate your build pipeline talk](https://www.youtube.com/watch?v=3z2ietdtdLE) - session on scripting builds and CI integration.
+## Word List
+- 0f1
+- 11
+- 2022
+- 3
+- a
+- across
+- actions
+- addressables
+- and
+- api
+- applications
+- arguments
+- artifact
+- automated
+- bash
+- basics
+- batchmode
+- build
+- building
+- buildpipeline
+- buildpipelinerunner
+- buildplayer
+- builds
+- buildstandaloneplayer
+- buildtarget
+- bundles
+- caching
+- capture
+- changelog
+- channels
+- checks
+- ci
+- class
+- cli
+- cloud
+- com
+- command
+- commandlinearguments
+- compare
+- config
+- configure
+- considerations
+- console
+- content
+- create
+- defaults
+- define
+- desktop
+- docs
+- document
+- documentation
+- drive
+- editor
+- executemethod
+- exercises
+- features
+- folder
+- for
+- github
+- headless
+- html
+- https
+- hub
+- implement
+- in
+- include
+- inspection
+- integration
+- job
+- library
+- line
+- lint
+- log
+- logs
+- make
+- manual
+- material
+- meta
+- missing
+- mobile
+- nightly
+- notes
+- or
+- outline
+- outputs
+- per
+- pipeline
+- plan
+- platform
+- platforms
+- platformspecific
+- player
+- playersettings
+- pre
+- production
+- profiles
+- projectpath
+- quality
+- quit
+- rebuilds
+- recommended
+- reference
+- references
+- release
+- rendering
+- requirements
+- running
+- script
+- scripted
+- scripting
+- scriptreference
+- settings
+- shader
+- shared
+- specific
+- staging
+- standaloneosx
+- steps
+- store
+- stripping
+- symbols
+- test
+- that
+- the
+- them
+- to
+- toggle
+- toggles
+- under
+- unity
+- unity3d
+- unitycloudbuild
+- unityeditor
+- unityproject
+- uploads
+- use
+- using
+- validation
+- variant
+- via
+- vs
+- with
+- yaml

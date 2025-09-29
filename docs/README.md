@@ -1,70 +1,191 @@
 # Learning Library Overview
 
-Use this index to navigate the learning material for C# and Unity development.
+Use this index to navigate the reorganized curriculum. Work through the onboarding track first, then
+chip away at the Unity modules while pulling reference and team playbooks as needed.
 
-- [C# Learning Hub](csharp/README.md)
-- [Modern C# Features](modern-csharp/README.md)
-- [Unity Core Concepts](unity-core/README.md)
-- [Unity Gameplay Systems](unity-gameplay/README.md)
-- [Advanced Unity Topics](unity-advanced/README.md)
-- [Unity Testing & Quality](unity-testing-quality/README.md)
-- [Unity Supplementary Topics](unity-supplementary/README.md)
-- [Unity Learning Roadmaps](unity-roadmaps/README.md)
-- [Game Programming Patterns](game-programming-patterns/README.md)
-- [Math & Simulation](math-simulation/README.md)
-- [Tooling & Workflow](tooling-workflow/README.md)
-- [Meta Documentation](meta/README.md)
+## Onboarding Track
+- [C# Learning Hub](00-csharp/README.md): refresh core language skills before diving into Unity.
+- [Unity Learning Roadmaps](01-unity-roadmaps/README.md): choose the study path that fits your goals.
 
-Start with the C# hub, then follow the Unity roadmaps to decide which deep dives to tackle next.
+## Unity Curriculum
+- [Unity Core Concepts](02-unity-core/README.md): master scenes, prefabs, and project layout fundamentals.
+- [Unity Gameplay Systems](03-unity-gameplay/README.md): design production-ready gameplay loops and systems.
+- [Advanced Unity Topics](04-unity-advanced/README.md): scale projects with architecture and tooling upgrades.
+- [Unity Supplementary Topics](05-unity-supplementary/README.md): explore specialty modules to round out skills.
+- [Unity Testing & Quality](06-unity-testing-quality/README.md): strengthen validation, QA, and release practices.
 
+## C# Mastery
+- [Modern C# Features](07-modern-csharp/README.md): level up with language improvements used in Unity work.
+
+## Reference Library
+- [Game Programming Patterns](08-game-programming-patterns/README.md): study reusable gameplay architectures.
+- [Math & Simulation](09-math-simulation/README.md): reinforce the math that powers physics, AI, and systems.
+
+## Team Operations
+- [Tooling & Workflow](10-tooling-workflow/README.md): streamline developer environments and pipelines.
+- [Meta Documentation](11-meta/README.md): keep shared guidelines, policies, and process notes in sync.
+
+## Quick Reference
+```bash
+tree docs -L 2
+```
+
+
+
+## References
+- [Unity documentation](https://docs.unity3d.com/Manual/index.html) - primary reference for Unity engine features.
+- [Unity Learn hub](https://learn.unity.com/) - courses and tutorials across Unity topics.
+- [.NET documentation](https://learn.microsoft.com/en-us/dotnet/) - runtime and C# resources for tooling scripts.
+- [Game Programming Patterns](https://gameprogrammingpatterns.com/) - architecture patterns for gameplay systems.
+- [GDC YouTube channel](https://www.youtube.com/c/gdconf) - talks on production, design, and engineering.
 ## Word List
+- 00
+- 01
+- 02
+- 03
+- 04
+- 05
+- 06
+- 07
+- 08
+- 09
+- 10
+- 11
+- 2
 - advanced
+- ai
 - and
+- architecture
+- architectures
+- as
+- at
+- away
+- bash
+- before
 - c
+- central
+- chip
+- choose
+- com
 - concepts
 - core
 - csharp
-- decide
-- deep
-- development
-- dives
+- curriculum
+- design
+- developer
+- diving
+- docs
 - documentation
+- dotnet
+- en
+- environments
+- explore
 - features
-- follow
+- first
+- fits
+- focused
 - for
+- fundamentals
 - game
 - gameplay
+- goals
+- guidelines
+- https
 - hub
+- improvements
+- in
 - index
+- into
+- keep
+- l
+- language
+- layout
+- learn
 - learning
+- level
 - library
-- material
+- loops
+- master
+- mastery
 - math
 - md
 - meta
+- microsoft
+- mirror
 - modern
+- modules
 - navigate
-- next
+- needed
+- net
+- notes
+- official
+- onboarding
+- operations
+- out
 - overview
+- path
 - patterns
+- physics
+- pipelines
+- playbooks
+- policies
+- powers
+- practices
+- prefabs
+- process
+- production
 - programming
+- project
+- projects
+- pulling
+- qa
 - quality
+- quick
 - readme
+- ready
+- reference
+- references
+- refresh
+- reinforce
+- release
+- reorganized
+- reusable
 - roadmaps
+- round
+- scale
+- scenes
+- shared
 - simulation
-- start
+- skills
+- specialty
+- streamline
+- strengthen
+- study
 - supplementary
+- sync
 - systems
-- tackle
+- team
 - testing
+- that
 - the
 - then
 - this
+- through
 - to
 - tooling
 - topics
+- track
+- tree
+- tutorials
 - unity
+- up
+- upgrades
+- us
 - use
-- which
+- used
+- validation
+- while
 - with
+- work
 - workflow
+- your

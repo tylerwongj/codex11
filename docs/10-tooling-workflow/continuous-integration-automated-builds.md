@@ -1,0 +1,168 @@
+# Continuous Integration, Automated Builds, Crash/Analytics Instrumentation
+- **CI pipeline design:** Draft workflows (GitHub Actions, Azure DevOps, Jenkins) that run `make lint`, `make test`, and Unity batch builds on pull requests. Cache library folders and package downloads to keep runtimes fast.
+- **Build automation:** Use Unity's command line (`-batchmode -nographics`) with custom build scripts (`BuildPipeline.BuildPlayer`). Script platform-specific output directories and symbol server uploads.
+- **Artifact management:** Store player builds, IL2CPP symbols, and addressable catalogs as CI artifacts. Tag builds with commit hashes so QA can reproduce issues quickly.
+- **Crash reporting:** Integrate Unity Cloud Diagnostics, Backtrace, or Firebase Crashlytics. Verify that symbols upload automatically so stack traces resolve on dashboards.
+- **Analytics instrumentation:** Wrap analytics events in a typed service. Add unit tests that guard against schema drift (missing parameters, renamed events) before shipping releases.
+- **Release gates:** Require green CI, crash-free session targets, and analytics health checks before promoting builds from staging to production.
+
+## CI Step Outline
+```yaml
+- name: Run Lint
+  run: make lint
+```
+
+
+
+
+
+
+## References
+- [Command line arguments manual](https://docs.unity3d.com/Manual/CommandLineArguments.html) - options for building projects via CLI.
+- [Batch mode manual](https://docs.unity3d.com/Manual/Batchmode.html) - run Unity in headless mode for automation.
+- [GameCI getting started](https://game.ci/docs/github/getting-started) - set up Unity builds on GitHub Actions.
+- [CI/CD for Unity with Azure Pipelines](https://learn.microsoft.com/en-us/gaming/unity/azure-devops/ci-cd-unity) - tutorial on Azure-based pipelines.
+- [Automating Unity builds talk](https://www.youtube.com/watch?v=EVS9st9WME0) - session on CI strategy and tooling.
+## Word List
+- a
+- actions
+- add
+- addressable
+- against
+- analytics
+- and
+- arguments
+- artifact
+- artifacts
+- as
+- automated
+- automatically
+- automation
+- azure
+- backtrace
+- batch
+- batchmode
+- before
+- build
+- buildpipeline
+- buildplayer
+- builds
+- cache
+- can
+- catalogs
+- checks
+- ci
+- cloud
+- com
+- command
+- commandlinearguments
+- commit
+- continuous
+- crash
+- crashlytics
+- custom
+- dashboards
+- design
+- devops
+- diagnostics
+- directories
+- docs
+- downloads
+- draft
+- drift
+- events
+- fast
+- firebase
+- folders
+- for
+- free
+- from
+- gates
+- github
+- green
+- guard
+- hashes
+- health
+- hosted
+- html
+- https
+- il2cpp
+- in
+- instrumentation
+- integrate
+- integration
+- issues
+- jenkins
+- keep
+- library
+- line
+- lint
+- make
+- management
+- manual
+- missing
+- name
+- nographics
+- on
+- options
+- or
+- outline
+- output
+- package
+- parameters
+- pipeline
+- platform
+- player
+- production
+- products
+- promoting
+- pull
+- qa
+- quickly
+- reference
+- references
+- release
+- releases
+- renamed
+- reporting
+- reproduce
+- requests
+- require
+- resolve
+- run
+- runtimes
+- schema
+- script
+- scripts
+- server
+- service
+- session
+- shipping
+- so
+- specific
+- stack
+- staging
+- step
+- store
+- symbol
+- symbols
+- tag
+- targets
+- test
+- tests
+- that
+- to
+- traces
+- typed
+- unit
+- unity
+- unity's
+- unity3d
+- upload
+- uploads
+- use
+- verify
+- with
+- workflows
+- wrap
+- yaml

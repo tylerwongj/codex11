@@ -1,0 +1,177 @@
+# Basic Shader Knowledge: Shader Graph vs. Hand-Written, URP vs. HDRP
+- **Rendering pipelines overview:** Compare the Built-in Render Pipeline with Universal (URP) and High Definition (HDRP) pipelines. Track how lighting models, post-processing, and feature availability change per pipeline and document project-specific recommendations alongside these notes.
+- **Shader Graph workflow:** Build a simple stylized material using Shader Graph. Explore subgraphs, keywords, and Custom Function nodes. Profile iteration speed improvements when artists do not rely on engineer-built shaders.
+- **Hand-written shaders:** Port the Shader Graph material to an HLSL-based shader (`.shader` or `.hlsl`). Explain when hand-authored shaders are necessary (e.g., complex lighting models, dynamic branching, platform-specific optimizations) and note common pitfalls such as variant explosion.
+- **URP vs. HDRP selection criteria:** Evaluate rendering requirements (target hardware, realism goals, feature needs like volumetric lighting or ray tracing). Build a table contrasting URP and HDRP for your project and capture migration considerations.
+- **Exercises:** Implement the same water or foliage effect in Shader Graph and hand-written HLSL, profile on target devices, and summarize trade-offs.
+- **Reference material:** Unity Manual — Render Pipelines; Unity Learn Shader Graph tutorials; Catlike Coding shader series for HLSL deep dives.
+
+## Shader Graph Flow
+```text
+Texture Sample -> Normal Strength -> PBR Master
+```
+
+
+
+
+
+
+## References
+- [Shader Graph manual](https://docs.unity3d.com/Manual/shader-graph.html) - node-based shader authoring workflow.
+- [Writing shaders manual](https://docs.unity3d.com/Manual/SL-ShaderPrograms.html) - HLSL-based programmable pipeline.
+- [Shader Graph course](https://learn.unity.com/course/shader-graph) - Unity Learn course covering Shader Graph fundamentals.
+- [Choose between Shader Graph and HLSL](https://unity.com/how-to/choose-between-shader-graph-and-hlsl) - article comparing authoring approaches.
+- [Shader Graph tips session](https://www.youtube.com/watch?v=Xkgzj540HZ4) - advanced Shader Graph workflows video.
+## Word List
+- a
+- alongside
+- an
+- and
+- are
+- artists
+- as
+- authored
+- availability
+- based
+- basic
+- blog
+- branching
+- build
+- built
+- capture
+- catlike
+- change
+- choose
+- choosing
+- coding
+- com
+- common
+- compare
+- complex
+- considerations
+- contrasting
+- criteria
+- custom
+- deep
+- definition
+- devices
+- dives
+- do
+- docs
+- document
+- documentation
+- dynamic
+- e
+- effect
+- engineer
+- evaluate
+- exercises
+- explain
+- explore
+- explosion
+- feature
+- flow
+- foliage
+- for
+- function
+- g
+- goals
+- graph
+- guidance
+- hand
+- hardware
+- hdrp
+- high
+- hlsl
+- how
+- https
+- implement
+- improvements
+- in
+- iteration
+- keywords
+- knowledge
+- latest
+- learn
+- lighting
+- like
+- manual
+- master
+- material
+- migration
+- models
+- necessary
+- needs
+- nodes
+- normal
+- not
+- note
+- notes
+- official
+- offs
+- on
+- optimizations
+- or
+- overview
+- packages
+- pbr
+- per
+- pipeline
+- pipelines
+- pitfalls
+- platform
+- port
+- post
+- processing
+- profile
+- project
+- ray
+- realism
+- recommendations
+- reference
+- references
+- rely
+- render
+- rendering
+- requirements
+- same
+- sample
+- selection
+- series
+- shader
+- shadergraph
+- shaders
+- simple
+- specific
+- speed
+- strength
+- stylized
+- subgraphs
+- such
+- summarize
+- table
+- target
+- technology
+- text
+- texture
+- the
+- these
+- to
+- tracing
+- track
+- trade
+- tutorials
+- unity
+- unity3d
+- universal
+- urp
+- using
+- variant
+- volumetric
+- vs
+- water
+- when
+- with
+- workflow
+- written
+- your

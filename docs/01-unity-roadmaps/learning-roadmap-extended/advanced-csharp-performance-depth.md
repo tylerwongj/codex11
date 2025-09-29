@@ -1,0 +1,234 @@
+# Advanced C# and Performance Depth
+
+## Timeline
+- Week 1: Review async/await patterns, convert an existing loading flow, and measure impact.
+- Week 2: Prototype a Job System/Burst-enabled task, compare against baseline execution times.
+- Week 3: Conduct profiling deep dive across representative scenes, documenting hotspots.
+- Quarterly: Re-run benchmarks and regression tests to ensure optimizations hold.
+
+## Suggested Resources
+- Unity DOTS samples and official ECS documentation for job-oriented architectures.
+- Catlike Coding tutorials on coroutines, async, and performance optimization.
+- Microsoft async best practices (ConfigureAwait, exception handling) adapted for Unity contexts.
+- Unity Profiler, Memory Profiler, and Frame Debugger documentation and related talks.
+
+## Deliverables
+- Async guidelines doc covering do/don'ts, exception strategy, and synchronization contexts.
+- Job System template scripts and utility wrappers ready for reuse.
+- Benchmark report with charts, methodology notes, and acceptance thresholds.
+- Profiling playbook that lists target metrics, tool workflow, and remediation strategies.
+
+## Tracking & Reflection
+- Store benchmark projects and data files under `tests/performance/` with version tags.
+- Automate performance regression checks in CI where feasible (e.g., playmode tests with profiling hooks).
+- Keep a changelog of optimization experiments, results, and follow-up tasks.
+- Schedule cross-discipline share-outs to propagate lessons to the broader team.
+
+## Burst Job Snippet
+```csharp
+[BurstCompile]
+public struct SpinJob : IJobParallelFor
+{
+    public NativeArray<float> Speeds;
+
+    public void Execute(int index)
+    {
+        Speeds[index] = math.sin(Speeds[index]);
+    }
+}
+```
+
+
+
+
+
+
+## References
+- [Unity DOTS documentation](https://docs.unity3d.com/Packages/com.unity.entities@latest) - entities, jobs, and burst reference.
+- [Unity DOTS samples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) - example projects using the ECS stack.
+- [Understanding async in Unity](https://blog.unity.com/engine-platform/understanding-async-await-in-unity) - guidance for async workflows inside Unity.
+- [Unity profiler manual](https://docs.unity3d.com/Manual/Profiler.html) - capture and analyse performance data.
+- [Performance optimization talk](https://www.youtube.com/watch?v=gx0ltmyq3pI) - Unite session on profiling best practices.
+## Word List
+- 1
+- 2
+- 3
+- a
+- acceptance
+- across
+- adapted
+- advanced
+- against
+- an
+- and
+- architectures
+- async
+- automate
+- await
+- baseline
+- benchmark
+- benchmarks
+- best
+- broader
+- burst
+- burstcompile
+- c
+- catlike
+- changelog
+- charts
+- checks
+- ci
+- coding
+- com
+- compare
+- compiler
+- conduct
+- configureawait
+- contexts
+- convert
+- coroutines
+- covering
+- cross
+- csharp
+- data
+- debugger
+- deep
+- deliverables
+- depth
+- discipline
+- dive
+- do
+- doc
+- docs
+- documentation
+- documenting
+- don'ts
+- dots
+- e
+- ecs
+- enabled
+- ensure
+- exception
+- execute
+- execution
+- existing
+- experiments
+- feasible
+- files
+- float
+- flow
+- follow
+- for
+- frame
+- g
+- guide
+- guidelines
+- handling
+- hold
+- hooks
+- hotspots
+- html
+- https
+- ijobparallelfor
+- impact
+- in
+- index
+- int
+- job
+- jobs
+- jobsystem
+- keep
+- latest
+- lessons
+- lists
+- loading
+- manual
+- math
+- measure
+- memory
+- methodology
+- metrics
+- microsoft
+- nativearray
+- notes
+- of
+- official
+- on
+- optimization
+- optimizations
+- oriented
+- outs
+- package
+- packages
+- patterns
+- performance
+- playbook
+- playmode
+- practices
+- profiler
+- profiling
+- projects
+- propagate
+- prototype
+- public
+- quarterly
+- re
+- ready
+- references
+- reflection
+- regression
+- related
+- remediation
+- report
+- representative
+- resources
+- results
+- reuse
+- review
+- run
+- samples
+- scenes
+- schedule
+- scripts
+- share
+- sin
+- snippet
+- speeds
+- spinjob
+- store
+- strategies
+- strategy
+- struct
+- suggested
+- synchronization
+- system
+- tags
+- talks
+- target
+- task
+- tasks
+- team
+- template
+- tests
+- that
+- the
+- thresholds
+- timeline
+- times
+- to
+- tool
+- tracking
+- tutorials
+- under
+- unity
+- unity3d
+- up
+- utility
+- version
+- void
+- week
+- where
+- with
+- work
+- workflow
+- wrappers

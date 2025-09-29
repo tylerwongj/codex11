@@ -1,0 +1,177 @@
+# Version Control Workflows for Unity Projects
+- **Project serialization settings:** Enable `Force Text` and `Visible Meta Files` under Project Settings → Editor. This keeps `.unity` and `.prefab` assets diffable and ensures `.meta` GUIDs stay in version control.
+- **Unity-aware `.gitignore`:** Ignore `Library/`, `Temp/`, `Logs/`, `Build/`, and auto-generated IDE folders while keeping `.meta` files tracked. Store the template under `config/gitignore.unity` if you need variants per platform.
+- **Branch hygiene:** Use short-lived feature branches (kebab-case) and pull base changes before pushing. Gate merges on `make lint`, `make test`, and a play mode smoke test.
+- **Smart merging:** Configure `UnityYAMLMerge` (Smart Merge) as the `merge.tool` so multi-user scene or prefab edits reconcile automatically. Fall back to manual conflict resolution only when semantic intent diverges.
+- **Large assets:** Track audio, textures, or meshes over 10 MB with Git LFS. Document asset origins and licenses in `assets/README.md` entries.
+- **Hands-on checkpoint:** Initialize a fresh repository, apply the Unity `.gitignore`, commit with meta files included, and test a Smart Merge conflict by editing the same prefab on two branches.
+
+## Git LFS Command
+```bash
+git lfs track "Assets/Art/**"
+```
+
+
+
+
+
+
+## References
+- [Version control best practices](https://docs.unity.com/version-control/en/manual/best-practices) - Unity-specific source control guidance.
+- [Source control in Unity tutorial](https://learn.unity.com/tutorial/source-control-in-unity) - course covering Git and Plastic SCM.
+- [Git book](https://git-scm.com/book/en/v2) - comprehensive Git reference.
+- [Atlassian Git tutorials](https://www.atlassian.com/git/tutorials) - task-focused Git workflow guides.
+- [Unity DevOps collaboration workflow](https://www.youtube.com/watch?v=J5p_PV7PzG4) - talk on branching and reviews for Unity teams.
+## Word List
+- 10
+- a
+- and
+- apply
+- art
+- as
+- asset
+- assets
+- audio
+- auto
+- automatically
+- aware
+- back
+- base
+- bash
+- before
+- best
+- branch
+- branches
+- build
+- by
+- case
+- changes
+- checkpoint
+- com
+- command
+- commit
+- config
+- configuration
+- configure
+- conflict
+- control
+- diffable
+- diverges
+- docs
+- document
+- editing
+- editor
+- edits
+- enable
+- ensures
+- entries
+- external
+- externalversioncontrolsystemsupport
+- fall
+- feature
+- files
+- folders
+- for
+- force
+- fresh
+- gate
+- generated
+- git
+- gitignore
+- guids
+- hands
+- html
+- https
+- hygiene
+- ide
+- if
+- ignore
+- in
+- included
+- initialize
+- intent
+- kebab
+- keeping
+- keeps
+- large
+- lfs
+- library
+- licenses
+- lint
+- lived
+- logs
+- make
+- manual
+- mb
+- md
+- merge
+- merges
+- merging
+- meshes
+- meta
+- mode
+- multi
+- need
+- on
+- only
+- or
+- origins
+- over
+- per
+- perforce
+- platform
+- play
+- practices
+- prefab
+- prefabs
+- project
+- projects
+- pull
+- pushing
+- readme
+- reconcile
+- references
+- repository
+- resolution
+- same
+- scene
+- scenes
+- semantic
+- serialization
+- setting
+- settings
+- short
+- smart
+- smartmerge
+- smoke
+- so
+- stay
+- store
+- support
+- temp
+- template
+- test
+- text
+- textures
+- the
+- this
+- to
+- tool
+- track
+- tracked
+- two
+- under
+- unity
+- unity3d
+- unityyamlmerge
+- up
+- use
+- user
+- variants
+- version
+- visible
+- when
+- while
+- with
+- workflows
+- you

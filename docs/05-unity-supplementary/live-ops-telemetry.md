@@ -1,0 +1,184 @@
+# Live Ops: Telemetry, A/B Testing, Content Updates
+- **Telemetry foundations:** Identify key metrics (DAU/MAU, retention cohorts, monetization events, critical gameplay funnels). Implement a lightweight analytics wrapper that queues events, retries on failure, and batches uploads.
+- **Instrumentation discipline:** Define event naming conventions, version events, and enforce schema validation. Use ScriptableObjects or configuration files to manage analytics endpoints per environment.
+- **A/B and multivariate testing:** Compare service providers (Remote Config, Firebase Remote Config, custom backend). Prototype a gameplay parameter split test and ensure guardrails exist to disable experiments quickly.
+- **Content delivery:** Combine Addressables, remote config, and feature flags to roll out seasonal or live events without full client updates. Document review and approval workflows.
+- **Monitoring and alerting:** Establish dashboards (DataDog, Grafana, Unity Analytics) and alert thresholds. Practice incident response by simulating a misconfigured event rollout.
+- **Exercises:** Run a mock live event: release a new cosmetic via Addressables, collect telemetry, split traffic between variants, and produce a retrospective report.
+- **Reference material:** Unity Gaming Services docs (Analytics, Remote Config); LiveOps GDC sessions; Google Play Console experiments guide.
+
+## Telemetry Event Schema
+```json
+{
+  "event": "level_complete",
+  "player_id": "uuid",
+  "level": 3,
+  "duration_seconds": 187,
+  "coins_collected": 42
+}
+```
+
+
+
+
+
+
+## References
+- [Unity LiveOps overview](https://unity.com/solutions/live-ops) - tools for operating live games.
+- [Unity analytics manual](https://docs.unity.com/analytics/en/manual/overview) - setup and event tracking guidance.
+- [Unity cloud diagnostics manual](https://docs.unity.com/cloud-diagnostics/en/manual/overview) - crash reporting and telemetry.
+- [Unity analytics learning plan](https://learn.unity.com/plan/unity-analytics) - courses on dashboards and funnels.
+- [LiveOps best practices talk](https://www.youtube.com/watch?v=20nQOsybU98) - GDC session on telemetry driven operations.
+## Word List
+- 187
+- 3
+- 42
+- a
+- addressables
+- alert
+- alerting
+- analytics
+- and
+- approval
+- b
+- backend
+- batches
+- between
+- by
+- client
+- cohorts
+- coins
+- collect
+- collected
+- com
+- combine
+- compare
+- complete
+- config
+- configuration
+- console
+- content
+- conventions
+- cosmetic
+- critical
+- custom
+- dashboard
+- dashboards
+- datadog
+- dau
+- define
+- delivery
+- disable
+- discipline
+- docs
+- document
+- documentation
+- duration
+- endpoints
+- enforce
+- ensure
+- environment
+- establish
+- event
+- events
+- exercises
+- exist
+- experiments
+- failure
+- feature
+- files
+- firebase
+- flags
+- for
+- foundations
+- full
+- funnels
+- gameplay
+- gaming
+- gdc
+- google
+- grafana
+- guardrails
+- guide
+- https
+- id
+- identify
+- implement
+- incident
+- instrumentation
+- json
+- key
+- latest
+- level
+- lightweight
+- live
+- liveops
+- manage
+- material
+- mau
+- metrics
+- misconfigured
+- mock
+- monetization
+- monitoring
+- multivariate
+- naming
+- new
+- on
+- ops
+- or
+- out
+- packages
+- parameter
+- per
+- play
+- player
+- practice
+- produce
+- prototype
+- providers
+- queues
+- quickly
+- reference
+- references
+- release
+- remote
+- report
+- response
+- retention
+- retries
+- retrospective
+- review
+- roll
+- rollout
+- run
+- schema
+- scriptableobjects
+- seasonal
+- seconds
+- service
+- services
+- sessions
+- setup
+- simulating
+- split
+- telemetry
+- test
+- testing
+- that
+- thresholds
+- to
+- traffic
+- unity
+- unity3d
+- updates
+- uploads
+- use
+- uuid
+- validation
+- variants
+- version
+- via
+- without
+- workflows
+- wrapper

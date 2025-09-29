@@ -1,0 +1,188 @@
+# Save Systems and Persistence Strategies, Including Cloud Saves
+- **Persistence layers:** Map local save formats (JSON, binary, ScriptableObjects, SQLite) and note when to encrypt or compress data. Document serialization libraries (e.g., Odin Serializer, Newtonsoft JSON) and choose a default approach.
+- **Versioning and migrations:** Design a schema versioning strategy. Prototype a migration pipeline that upgrades old save data safely and logs failures for analysis.
+- **Platform integration:** Investigate console certification rules and mobile platform storage limits. Determine where saves live on each target platform and plan fallback paths when storage is unavailable.
+- **Cloud sync considerations:** Evaluate cloud providers (Unity Cloud Save, PlayFab, Firebase, custom REST). Document authentication flows, conflict resolution policies, and offline-first strategies.
+- **Security and privacy:** Define data retention policies, GDPR/CCPA obligations, and sensitive data handling. Align with backend/cloud teams to ensure compliance.
+- **Exercises:** Build a save/load module with checksum validation, automated regression tests, and a mocked cloud sync process that handles conflicts.
+- **Reference material:** Unity Manual — Persistence and Serialization; PlayFab documentation; platform TRCs/TCRs for storage requirements.
+
+## Save Payload Example
+```json
+{
+  "playerLevel": 12,
+  "inventory": ["sword", "potion"],
+  "position": { "x": 4.2, "y": 1.0, "z": -3.5 }
+}
+```
+
+
+
+
+
+
+## References
+- [Persistence and saving data manual](https://docs.unity3d.com/Manual/persistence-saving-data.html) - overview of serialization strategies in Unity.
+- [PlayerPrefs scripting reference](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html) - API for simple local storage.
+- [JSON serialization manual](https://docs.unity3d.com/Manual/JSONSerialization.html) - serialize data using JSONUtility.
+- [Save and load data tutorial](https://learn.unity.com/tutorial/save-and-load-data) - step-by-step creation of a save system.
+- [Save and load game video](https://www.youtube.com/watch?v=XOjd_qU2Ido) - Brackeys tutorial on persistence workflows.
+## Word List
+- 0
+- 1
+- 12
+- 2
+- 3
+- 4
+- 5
+- a
+- align
+- analysis
+- and
+- approach
+- authentication
+- automated
+- backend
+- binary
+- build
+- ccpa
+- certification
+- checksum
+- choose
+- cloud
+- com
+- compliance
+- compress
+- conflict
+- conflicts
+- considerations
+- console
+- custom
+- data
+- default
+- define
+- design
+- determine
+- docs
+- document
+- documentation
+- e
+- each
+- en
+- encrypt
+- ensure
+- evaluate
+- example
+- exercises
+- failures
+- fallback
+- features
+- firebase
+- first
+- flows
+- for
+- formats
+- g
+- gaming
+- gdpr
+- guidance
+- handles
+- handling
+- html
+- https
+- including
+- integration
+- inventory
+- investigate
+- is
+- json
+- layers
+- learn
+- libraries
+- limits
+- live
+- load
+- local
+- logs
+- manual
+- map
+- material
+- microsoft
+- migration
+- migrations
+- mobile
+- mocked
+- module
+- newtonsoft
+- note
+- obligations
+- odin
+- official
+- offline
+- old
+- on
+- or
+- paths
+- payload
+- persistence
+- persisting
+- persistingdata
+- pipeline
+- plan
+- platform
+- playerlevel
+- playfab
+- policies
+- position
+- potion
+- privacy
+- process
+- prototype
+- providers
+- reference
+- references
+- regression
+- requirements
+- resolution
+- rest
+- retention
+- rules
+- safely
+- save
+- saves
+- schema
+- script
+- scriptableobjects
+- security
+- sensitive
+- serialization
+- serializer
+- solutions
+- sqlite
+- storage
+- strategies
+- strategy
+- sword
+- sync
+- system
+- systems
+- target
+- tcrs
+- teams
+- tests
+- that
+- to
+- trcs
+- unavailable
+- unity
+- unity3d
+- upgrades
+- us
+- validation
+- versioning
+- when
+- where
+- with
+- x
+- y
+- z

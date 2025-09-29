@@ -1,0 +1,146 @@
+# Package Manager Usage, Managing Dependencies, Custom Packages
+- **Package Manager tour:** Learn how Unity's Package Manager displays embedded, registry, and Git-based packages. Practice adding packages from the Unity Registry and removing unused dependencies.
+- **Locking dependencies:** Enable version locking (`manifest.json` with `lock` section) to stabilize reproducible builds. Audit `Packages/packages-lock.json` into source control.
+- **Custom package pipeline:** Scaffold a `com.example.tooling` package with its own `package.json`, editor/runtime assemblies, tests, and documentation. Reference it via a local path first, then publish to a scoped registry.
+- **Third-party updates:** Create a schedule for reviewing dependency changelogs. Test upgrades in a feature branch and record migration notes under `docs/` before merging.
+- **Sandboxing experiments:** Use `Packages/manifest.json` `testables` entries to load experimental packages only in test projects or editor tooling assemblies.
+- **Fallback strategy:** Mirror critical packages locally or fork them in case upstream registries fail.
+
+## Manifest Entry
+```json
+"com.unity.cinemachine": "2.9.7"
+```
+
+
+
+
+
+
+## References
+- [Package Manager UI manual](https://docs.unity3d.com/Manual/upm-ui.html) - manage packages inside the editor.
+- [Package dependencies manual](https://docs.unity3d.com/Manual/upm-dependencies.html) - define and resolve dependency graphs.
+- [Custom packages manual](https://docs.unity3d.com/Manual/CustomPackages.html) - author and host custom Unity packages.
+- [OpenUPM registry](https://openupm.com/) - open-source package registry for Unity.
+- [Package manager workflows tutorial](https://learn.unity.com/tutorial/package-manager-workflows) - course on versioning and dependency management.
+## Word List
+- 2
+- 7
+- 9
+- a
+- adding
+- and
+- assemblies
+- audit
+- based
+- before
+- branch
+- bringing
+- builds
+- case
+- changelogs
+- cinemachine
+- com
+- control
+- create
+- critical
+- custom
+- dependencies
+- dependency
+- displays
+- docs
+- documentation
+- editor
+- embedded
+- enable
+- entries
+- entry
+- example
+- experimental
+- experiments
+- fail
+- fallback
+- feature
+- first
+- for
+- fork
+- from
+- git
+- how
+- html
+- https
+- in
+- into
+- it
+- its
+- json
+- learn
+- load
+- local
+- locally
+- lock
+- locking
+- manager
+- managing
+- manifest
+- manual
+- merging
+- migration
+- mirror
+- notes
+- only
+- or
+- own
+- package
+- packages
+- party
+- path
+- pipeline
+- practice
+- project
+- projects
+- publish
+- record
+- reference
+- references
+- registries
+- registry
+- removing
+- reproducible
+- reviewing
+- runtime
+- sandboxing
+- scaffold
+- schedule
+- scoped
+- section
+- source
+- stabilize
+- strategy
+- test
+- testables
+- tests
+- the
+- them
+- then
+- third
+- to
+- tooling
+- tour
+- ui
+- under
+- unity
+- unity's
+- unity3d
+- unused
+- updates
+- upgrades
+- upm
+- upstream
+- usage
+- use
+- using
+- version
+- via
+- with
+- workflow
+- your

@@ -1,0 +1,335 @@
+# Repository Guidelines
+
+## Project Structure & Module Organization
+- The repository is currently bare; scaffold it by adding `src/` for runtime packages, `tests/` mirroring module structure, `docs/` for design notes, and `scripts/` for developer tooling.
+- Keep shared configuration in `config/` (environment YAML/TOML) and isolate experimental spikes inside `experiments/<topic>` so production code stays clean.
+- Store media or large fixtures in `assets/`; if a file exceeds 10 MB, track it with Git LFS and document the source in a README within that folder.
+
+## Build, Test, and Development Commands
+- Standardize on a `Makefile` entry point. Provide at minimum `make install`, `make lint`, `make test`, and `make dev`; describe each target at the top of the file.
+- `make install` should create `.venv` via `python -m venv .venv` (or `uv venv`) and install dependencies from `requirements.txt`.
+- `make lint` runs `ruff check src tests` plus `ruff format --check`; extend it with language-specific linters if additional stacks emerge.
+- `make test` wraps `pytest --maxfail=1 --ff`; reserve slower suites for `make test-all` so quick local loops stay under a minute.
+- `make dev` launches the primary entry point (CLI or service). If a watcher exists, surface it here rather than requiring contributors to remember the tool flag.
+
+## Coding Style & Naming Conventions
+- Target Python 3.11+ with 4-space indentation, `snake_case` for functions and modules, `PascalCase` for classes, and `SCREAMING_SNAKE_CASE` for constants.
+- Require type hints on public interfaces and fail CI on `mypy` violations (`mypy src`).
+- Prefer kebab-case for branches (`feature-agent-scheduler`), align Markdown headings sequentially, and wrap prose at ~100 characters.
+
+## Testing Guidelines
+- House unit tests in `tests/<module_name>/test_<subject>.py` and mirror package names to simplify imports.
+- Maintain ≥85% statement coverage; add regression tests alongside bug fixes and reference ticket IDs in test docstrings.
+- Mark slow or integration suites with `@pytest.mark.slow`; exclude them from default runs but execute via `make test-all` before merging.
+
+## Commit & Pull Request Guidelines
+- Follow `type(scope): imperative summary` commit titles (e.g., `feat(orchestrator): add agent heartbeat watchdog`) and keep related work in a single commit when reviewers benefit from combined context.
+- Rebase before pushing, link pull requests to the relevant issue or note, and paste sanitized output of `make lint` and `make test` in the PR description.
+- Request at least one review, attach screenshots or logs when behavior changes, and document configuration or migration updates under `docs/`.
+
+## Example Commit Title
+```text
+docs(unity-core): clarify execution order checklist
+```
+
+
+
+
+
+
+## References
+- [Git branching strategies](https://www.atlassian.com/git/tutorials/comparing-workflows) - compare Git workflows for teams.
+- [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) - lightweight branching model for collaboration.
+- [Code review developer guide](https://google.github.io/eng-practices/review/) - Google engineering review practices.
+- [Pull request template ideas](https://github.com/embeddedartistry/templates) - sample PR templates for engineering teams.
+- [Documentation guide](https://www.divio.com/docs/) - framework for structuring project documentation.
+## Word List
+- 1
+- 10
+- 100
+- 11
+- 3
+- 4
+- 85
+- a
+- add
+- adding
+- additional
+- agent
+- align
+- all
+- alongside
+- and
+- assets
+- at
+- attach
+- bare
+- before
+- behavior
+- benefit
+- best
+- book
+- branches
+- branching
+- bug
+- build
+- but
+- by
+- case
+- changes
+- characters
+- check
+- checklist
+- ci
+- clarify
+- classes
+- clean
+- cli
+- code
+- coding
+- collaboration
+- com
+- combined
+- commands
+- commit
+- commits
+- config
+- configuration
+- constants
+- context
+- contributors
+- conventions
+- core
+- coverage
+- create
+- currently
+- default
+- dependencies
+- describe
+- description
+- design
+- dev
+- developer
+- development
+- docs
+- docstrings
+- document
+- e
+- each
+- emerge
+- en
+- entry
+- environment
+- example
+- exceeds
+- exclude
+- execute
+- execution
+- exists
+- experimental
+- experiments
+- extend
+- fail
+- feat
+- feature
+- ff
+- file
+- fixes
+- fixtures
+- flag
+- folder
+- follow
+- for
+- format
+- from
+- functions
+- g
+- git
+- guide
+- guidelines
+- headings
+- heartbeat
+- here
+- hints
+- house
+- https
+- ids
+- if
+- imperative
+- imports
+- in
+- indentation
+- inside
+- install
+- integration
+- interfaces
+- is
+- isolate
+- issue
+- it
+- kebab
+- keep
+- language
+- large
+- latest
+- launches
+- least
+- lfs
+- link
+- lint
+- linters
+- local
+- logs
+- loops
+- m
+- maintain
+- make
+- makefile
+- mark
+- markdown
+- maxfail
+- mb
+- media
+- mentioned
+- merging
+- migration
+- minimum
+- minute
+- mirror
+- mirroring
+- module
+- modules
+- mypy
+- name
+- names
+- naming
+- note
+- notes
+- of
+- on
+- one
+- or
+- orchestrator
+- order
+- org
+- organization
+- output
+- package
+- packages
+- packaging
+- pascalcase
+- paste
+- plus
+- point
+- pr
+- practices
+- prefer
+- primary
+- pro
+- production
+- project
+- prose
+- provide
+- public
+- pull
+- pushing
+- py
+- pytest
+- python
+- quick
+- rather
+- readme
+- rebase
+- recommendations
+- reference
+- references
+- regression
+- related
+- relevant
+- remember
+- repository
+- request
+- requests
+- require
+- requirements
+- requiring
+- reserve
+- review
+- reviewers
+- ruff
+- runs
+- runtime
+- sanitized
+- scaffold
+- scheduler
+- scm
+- scope
+- screaming
+- screenshots
+- scripts
+- sequentially
+- service
+- shared
+- should
+- simplify
+- single
+- slow
+- slower
+- snake
+- so
+- source
+- space
+- specific
+- spikes
+- src
+- stacks
+- standardize
+- statement
+- stay
+- stays
+- store
+- structure
+- style
+- subject
+- suites
+- summary
+- surface
+- target
+- test
+- testing
+- tests
+- text
+- than
+- that
+- the
+- them
+- ticket
+- title
+- titles
+- to
+- toml
+- tool
+- tooling
+- top
+- topic
+- track
+- txt
+- type
+- under
+- unit
+- unity
+- updates
+- uv
+- v2
+- venv
+- via
+- violations
+- watchdog
+- watcher
+- when
+- with
+- within
+- work
+- wrap
+- wraps
+- yaml
