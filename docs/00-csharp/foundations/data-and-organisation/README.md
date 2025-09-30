@@ -27,65 +27,12 @@ ls docs/00-csharp/foundations/data-and-organisation
 - [LINQ fundamentals](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/) - query operations across collections.
 - [Algorithms in C#](https://dotnettutorials.net/course/algorithms-using-csharp/) - article series on common algorithms.
 - [C# collections course](https://www.pluralsight.com/courses/csharp-collections-generics) - Pluralsight course diving into generics and collections.
-## Word List
-- 00
-- after
-- algorithms
-- and
-- bash
-- basic
-- basics
-- before
-- c
-- classes
-- collection
-- collections
-- com
-- complete
-- core
-- covering
-- csharp
-- data
-- docs
-- dotnet
-- en
-- enumerations
-- flags
-- focus
-- foundations
-- gameplay
-- generics
-- handling
-- https
-- implement
-- in
-- learn
-- lessons
-- ls
-- md
-- microsoft
-- modules
-- net
-- of
-- on
-- organisation
-- path
-- patterns
-- references
-- serialization
-- standard
-- structures
-- support
-- survey
-- system
-- tackling
-- the
-- them
-- these
-- to
-- topics
-- training
-- types
-- unity
-- us
-- work
+## Key Terms
+- **Collection**: Container type (List, Dictionary, Queue, etc.) used to group related data items.
+- **Generic Collection**: Collection definition (e.g., `List<T>`) that enforces compile-time type safety.
+- **Enumeration**: Named set of constants, often used for state machines or option flags.
+- **Flags Enum**: Enum decorated with `[Flags]` so bitwise operations can combine multiple options.
+- **Algorithm**: Step-by-step procedure such as search or sort applied to collections.
+- **Serialization**: Process of converting objects into a storable or transferable format like JSON.
+- **LINQ**: Language Integrated Query toolkit for transforming and filtering sequences.
+- **Data Pipeline**: Flow of loading, transforming, and persisting data that underpins gameplay systems.

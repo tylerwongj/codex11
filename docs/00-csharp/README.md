@@ -26,59 +26,9 @@ ls docs/00-csharp
 - [C# fundamentals learning path](https://learn.microsoft.com/en-us/training/paths/csharp-first-steps/) - guided Microsoft Learn curriculum.
 - [dotnet CLI reference](https://learn.microsoft.com/en-us/dotnet/core/tools/) - command line tooling for building and running apps.
 - [The C# Yellow Book](https://www.csharpcourse.com/) - free ebook introducing modern C# concepts.
-## Word List
-- 00
-- bash
-- before
-- c
-- cli
-- com
-- command
-- core
-- csharp
-- curriculum
-- diving
-- docs
-- dotnet
-- en
-- explore
-- feed
-- for
-- foundations
-- https
-- hub
-- intermediate
-- into
-- landing
-- language
-- learn
-- learning
-- line
-- ls
-- md
-- microsoft
-- modules
-- navigate
-- notes
-- official
-- page
-- pair
-- quickstart
-- readme
-- reference
-- references
-- section
-- that
-- the
-- these
-- this
-- throughout
-- to
-- tooling
-- tools
-- topics
-- unity
-- us
-- use
-- used
-- with
+## Key Terms
+- **Quickstart**: High-level overview of C# syntax, project structure, and tooling basics.
+- **Foundations Track**: Sequence of beginner-friendly modules covering variables, flow control, and object modeling.
+- **Intermediate Track**: Set of notes on generics, events, inheritance, and other patterns needed for Unity scripting.
+- **dotnet CLI**: Command-line interface used to create, build, and run C# projects described throughout the hub.
+- **Unity Integration**: Goal of the C# curriculum—build language fluency that transfers directly into Unity scripting.

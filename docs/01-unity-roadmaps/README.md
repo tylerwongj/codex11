@@ -23,47 +23,8 @@ ls docs/01-unity-roadmaps
 - [Unity roadmap presentations](https://www.youtube.com/playlist?list=PLX2vGYjWbI0SDfFVGHjnoYzo-L6C8dC1L) - Unite sessions outlining product direction.
 - [Game developer roles guide](https://unity.com/how-to/game-developer-roles) - overview of roles and skills for Unity teams.
 - [Unity blog](https://blog.unity.com/) - official articles on production and best practices.
-## Word List
-- 01
-- bash
-- choose
-- com
-- complement
-- depth
-- dip
-- docs
-- extended
-- first
-- for
-- gdc
-- gdcvault
-- guided
-- https
-- ideas
-- inspiration
-- into
-- learn
-- learning
-- ls
-- matches
-- md
-- milestones
-- navigation
-- need
-- official
-- pathways
-- project
-- references
-- review
-- roadmap
-- roadmaps
-- standard
-- talks
-- that
-- the
-- then
-- tracks
-- unity
-- vault
-- www
-- you
+## Key Terms
+- **Baseline Roadmap**: Core sequence covering C# refresh, Unity fundamentals, and gameplay systems.
+- **Extended Roadmap**: Optional modules that add project ideas, design theory, and cross-discipline practice.
+- **Learning Pathway**: Curated Unity Learn curriculum aligned with specific roles or goals.
+- **Certification Track**: Long-term plan for official Unity exams and credentials.
